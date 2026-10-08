@@ -1,0 +1,205 @@
+/* Compact notation workspace based on the approved reference. */
+:root{font-family:"Segoe UI",Arial,sans-serif}
+html,body{height:100%;overflow:hidden}
+#app{height:100dvh;display:flex;flex-direction:column;overflow:hidden;background:var(--ui-bg)}
+#app button,#app select,#app input,#app summary{font-size:var(--ui-font);letter-spacing:0;line-height:1.3}
+#app button{min-height:28px;padding:5px 9px;transform:none!important;box-shadow:none!important;white-space:normal}
+#app button:hover{transform:none!important}
+#app select,#app input:not([type=checkbox]):not([type=range]):not([type=color]){padding:6px 8px;margin-top:5px;min-height:28px}
+#app label{font-size:calc(var(--ui-font) - 1px);margin:10px 0 0;font-weight:400}
+#app .small,#app p,#app .note,#app fieldset{font-size:calc(var(--ui-font) - 1px);line-height:1.45}
+.referenceHeader{height:34px!important;min-height:34px!important;padding:0 10px!important;display:flex!important;align-items:center!important;flex-wrap:nowrap!important;gap:8px!important;border-bottom:1px solid var(--ui-border)}
+.referenceHeader>.referenceTitle{position:absolute;left:50%;transform:translateX(-50%);font-size:calc(var(--ui-font) - 1px);pointer-events:none;font-weight:400;color:var(--ui-ink)}
+.referenceHeader>.fileTools{margin-left:auto;display:flex;gap:0}
+.referenceHeader>.toolDrawer,.referenceHeader .fileTools>.toolDrawer{border:0;background:transparent!important;margin:0}
+.referenceHeader summary{padding:8px 12px!important;font-weight:400!important;border:0!important;background:transparent!important;min-height:32px}
+.referenceHeader .fileTools .drawerContent,.referenceHeader #customizationMenu>.drawerContent{position:fixed!important;top:34px!important;right:10px!important;left:auto!important;z-index:120;width:340px;max-height:calc(100dvh - 80px);overflow:auto;padding:14px}
+.referenceHeader #customizationMenu>.drawerContent{left:10px!important;right:auto!important}
+.operationsHome{flex:none}.operationsToolbar{height:40px;display:flex;justify-content:center;align-items:stretch;gap:0;padding-left:var(--sidebar-width);border-bottom:1px solid var(--ui-border);background:var(--ui-bg);position:relative;z-index:45}
+.operationsToolbar>.toolDrawer{position:relative;border:0;border-right:1px solid var(--ui-border);border-radius:0;margin:0;background:transparent!important;flex-shrink:0}
+.operationsToolbar>.toolDrawer>summary{height:39px;display:flex;align-items:center;gap:9px;padding:0 13px;border:0;font-weight:400;white-space:nowrap}
+.operationsToolbar>.toolDrawer[open]>summary{background:var(--ui-selected);box-shadow:inset 0 -2px var(--ui-accent)}
+.operationsToolbar>.toolDrawer>.drawerContent{position:absolute;left:0;top:40px;z-index:110;width:320px;max-height:min(70dvh,620px);overflow:auto;padding:12px;background:var(--ui-field);border:1px solid var(--ui-border);box-shadow:0 8px 22px #0004;color:var(--ui-ink)}
+.operationsToolbar>.toolDrawer:nth-last-of-type(-n+2)>.drawerContent{left:auto;right:0}
+.operationsToolbar .drawerContent .drawerContent{position:static!important;width:auto!important;max-height:none!important;box-shadow:none!important;padding:10px 0!important;border:0!important}
+.operationsToolbar .drawerContent button{margin:4px 0;max-width:100%}
+.operationsToolbar .drawerContent .panel,.operationsToolbar .drawerContent .note{padding:10px;min-height:0;margin:8px 0;border-radius:3px}
+.operationsToolbar .drawerContent .panelHead{margin-bottom:8px;flex-wrap:wrap}
+.operationsToolbar .drawerContent h3{font-size:var(--ui-font)}
+.operationsToolbar .resultBar{display:block;min-height:0;padding:8px 0;border:0;margin:4px 0;background:transparent}
+.operationsToolbar .resultBar strong,.operationsToolbar .resultBar span{font-size:calc(var(--ui-font) - 1px)}
+.operationsToolbar #alternatives{margin-top:8px;flex-wrap:wrap}
+.operationsToolbar .modeTabs{display:flex;margin-bottom:10px;border:0;padding:0}
+.operationsToolbar .modeTabs button{flex:1}
+.referenceTransport{display:flex;align-items:center;gap:7px;margin-left:auto;padding:0 8px;flex-shrink:0}
+.referenceTransport .transport{gap:2px;display:flex}
+.referenceTransport .transport button{padding:5px!important;font-size:calc(var(--ui-font) - 1px)!important;background:transparent!important;border:0!important;white-space:nowrap}
+.referenceTransport .tempoControl{display:flex;align-items:center;gap:6px;margin:0!important;min-width:0;width:auto;font-size:calc(var(--ui-font) - 2px)!important}
+.referenceTransport #bpm{width:58px;margin:0}
+.referenceTransport .expandScore{position:static;display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px}
+#notationToolbarHome{flex-shrink:0}.notationToolbar{height:42px;min-height:42px;max-height:none;display:flex!important;align-items:center;flex-wrap:nowrap!important;padding:0 8px!important;gap:6px!important;border-bottom:1px solid var(--ui-border);overflow:visible;background:var(--ui-bg)}
+.notationToolbar .manualHead{order:2;flex-shrink:0;width:auto!important;margin-left:auto}
+.notationToolbar .manualHead button{white-space:nowrap!important;padding:5px!important;font-size:calc(var(--ui-font) - 2px)!important}
+.notationToolbar .notationLine{display:flex;align-items:center;flex-wrap:nowrap!important;gap:6px;width:auto;min-width:0}
+.notationToolbar .toolRow{display:flex;align-items:center;gap:3px;flex-shrink:0}
+.notationToolbar .toolRow>span{display:none}
+.notationToolbar .toolGroup{display:flex;gap:0;flex-wrap:nowrap}
+.notationToolbar .toolGroup button{min-width:28px;width:29px;height:38px;padding:0!important;border:0;border-radius:0;background:transparent!important;display:flex;align-items:center;justify-content:center;margin:0}
+.notationToolbar .toolGlyph{font-size:27px!important;line-height:1;color:var(--ui-ink)}
+.notationToolbar .toolGroup button.active{box-shadow:inset 0 -2px var(--ui-accent)!important;background:var(--ui-selected)!important}
+.notationToolbar #dotTool,.notationToolbar #tieTool{width:auto;padding:0 7px!important;white-space:nowrap;font-size:calc(var(--ui-font) - 2px)!important}
+.notationToolbar .numberShortcutToggle{order:3;width:auto!important;white-space:nowrap;font-size:calc(var(--ui-font) - 2px)!important;display:flex;align-items:center;gap:4px;margin:0!important}
+.notationToolbar .numberShortcutToggle input{margin:0}
+.notationToolbar .toolDrawer{position:relative;border:0;flex-shrink:0}
+.notationToolbar .toolDrawer>summary{font-weight:400;padding:9px 6px;font-size:calc(var(--ui-font) - 1px);border:0;background:transparent}
+.notationToolbar .toolDrawer>.drawerContent{position:absolute;top:42px!important;left:0!important;min-width:300px;width:max-content;max-width:95vw;padding:8px!important;background:var(--ui-field);z-index:120;box-shadow:0 6px 18px #0004}
+#app>main{display:grid!important;grid-template-columns:var(--sidebar-width) minmax(0,1fr);flex:1;min-height:0;height:auto;margin:0;padding:0;overflow:hidden}
+.writingSidebar{padding:0!important;position:static!important;align-self:stretch!important;height:100%!important;overflow:auto;min-height:0;border-right:1px solid var(--ui-border);background:var(--ui-bg)!important}
+.writingSidebar #sidebarTools{margin:0;border:0;border-radius:0;background:transparent!important}
+.writingSidebar #sidebarTools>summary{padding:9px 12px;border-bottom:1px solid var(--ui-border);font-size:var(--ui-font);font-weight:400}
+.writingSidebar #sidebarTools>.drawerContent{padding:0 12px;background:transparent}
+.writingSidebar #sidebarTools>.drawerContent>.toolDrawer{border:0;border-bottom:1px solid var(--ui-border);background:transparent!important;border-radius:0;margin:0}
+.writingSidebar .toolDrawer>summary{padding:12px 0;font-weight:400;font-size:calc(var(--ui-font) - 1px)}
+.writingSidebar .drawerContent .drawerContent{padding:0 8px 12px;border:0}
+.writingSidebar .scoreNav{display:flex;flex-wrap:wrap;background:transparent;padding:0;border:0;gap:5px}
+.writingSidebar .scoreNav strong{width:100%;font-size:calc(var(--ui-font) - 2px)}
+.writingHints{white-space:pre-line;margin:18px 8px;color:var(--ui-ink);font-size:calc(var(--ui-font) - 2px)}
+#app .workspace{padding:0;display:flex;flex-direction:column;height:100%;min-height:0;overflow:hidden;max-width:none;position:relative}
+.documentTab{height:28px;min-height:28px;padding:0 10px!important;flex-shrink:0;border-bottom:1px solid var(--ui-border);background:var(--ui-bg)}
+.documentTab #scoreTitle{font-size:calc(var(--ui-font) - 1px)!important;font-weight:400;letter-spacing:0;padding:5px 8px!important;border-bottom:0!important;margin:0;white-space:nowrap}
+#status{font-size:calc(var(--ui-font) - 2px)!important;line-height:1.3;padding:4px 10px!important;min-height:0;max-height:66px;overflow:auto;background:var(--ui-bg);color:var(--ui-ink)}
+#status:empty{display:none}
+.scoreView{display:flex;flex:1;min-height:0;overflow:hidden}
+.scoreView .scoreTopBar{display:none}
+#scoreWrap{flex:1;min-height:0!important;height:auto!important;padding:28px 36px!important;overflow:auto!important;background:var(--ui-canvas)!important}
+#scoreWrap.layout-pages .scorePage{padding:calc(28px * var(--page-scale,1));box-shadow:0 3px 16px #0004}
+#scoreWrap .pageTitle{font-size:15px;margin:0 0 18px;color:var(--paper-ink)}
+#scoreWrap .scoreFoot{display:none}
+.scoreView>.viewTools{display:flex;flex:none;flex-wrap:wrap;height:auto;min-height:30px;padding:2px 8px!important;margin:0;gap:9px;background:var(--ui-bg);border-top:1px solid var(--ui-border);align-items:center;justify-content:flex-end}
+.scoreView>.viewTools label{font-size:calc(var(--ui-font) - 2px)!important;margin:0!important}
+.scoreView>.viewTools select{width:160px;font-size:calc(var(--ui-font) - 2px)!important;padding:3px!important;margin:0!important;min-height:24px!important}
+.scoreView>.viewTools button{font-size:calc(var(--ui-font) - 2px)!important;padding:3px 7px!important;min-height:24px!important}
+.scoreView .workspaceZoom input{width:54px;font-size:calc(var(--ui-font) - 2px)!important;margin:0!important;min-height:24px!important;padding:3px!important}
+.harmonyAction{flex:none;max-height:38vh;overflow:auto;padding:10px;font-size:calc(var(--ui-font) - 1px)}
+.scoreView:fullscreen,.fullscreenFallback{height:100dvh!important;background:var(--ui-canvas)!important}
+.scoreView:fullscreen>.operationsToolbar,.fullscreenFallback>.operationsToolbar{padding-left:0;flex:none;min-height:40px}
+.scoreView:fullscreen .scoreTopBar,.fullscreenFallback .scoreTopBar{display:flex;position:static;min-height:34px;background:var(--ui-bg);justify-content:flex-end;flex:none;padding:3px 8px}
+.scoreView:fullscreen .scoreTopBar .fullscreenTransport,.fullscreenFallback .scoreTopBar .fullscreenTransport{display:flex;align-items:center;gap:10px;font-size:calc(var(--ui-font) - 1px)}
+@media(max-width:1100px){.operationsToolbar{padding-left:0;justify-content:flex-start}.operationsToolbar>.toolDrawer>summary{padding:0 8px;font-size:calc(var(--ui-font) - 1px)!important}.referenceTransport .tempoControl{display:none}.notationToolbar{gap:2px!important}.notationToolbar .toolGroup button{width:25px;min-width:25px}.notationToolbar .toolGlyph{font-size:24px!important}.notationToolbar .numberShortcutToggle{max-width:105px;white-space:normal!important}.notationToolbar #dotTool,.notationToolbar #tieTool{font-size:10px!important;max-width:100px;white-space:normal}}
+@media(max-width:760px){html,body{overflow:auto}#app{min-height:100dvh;height:auto;overflow:visible}#app>main{display:flex!important;flex-direction:column;overflow:visible;min-height:70dvh}.writingSidebar{height:auto!important;flex:none;width:100%;max-height:240px}.workspace{min-height:70dvh!important}.operationsToolbar{height:auto;min-height:38px;flex-wrap:wrap;justify-content:center}.operationsToolbar>.toolDrawer>summary{height:34px;padding:0 7px!important;font-size:calc(var(--ui-font) - 2px)!important}.operationsToolbar>.toolDrawer>.drawerContent{position:fixed;left:8px!important;right:8px!important;top:108px;width:auto;max-height:65dvh}.referenceTransport{margin-left:0}.notationToolbar{height:auto;min-height:42px;flex-wrap:wrap!important}.notationToolbar .notationLine{flex-wrap:wrap!important}.notationToolbar .manualHead{margin-left:0}.notationToolbar .numberShortcutToggle{max-width:none}.referenceHeader>.referenceTitle{display:none}.referenceHeader .fileTools .drawerContent,.referenceHeader #customizationMenu>.drawerContent{left:8px!important;right:8px!important;width:auto}#scoreWrap{height:60dvh!important;flex:none;padding:18px!important}.scoreView:fullscreen #scoreWrap,.fullscreenFallback #scoreWrap{height:auto!important;flex:1}.scoreView>.viewTools{justify-content:center}}
+
+[hidden]{display:none!important}
+
+.scoreView:fullscreen>.referenceHeader,.fullscreenFallback>.referenceHeader{flex:none;width:100%}
+/* Reference correction: consistent disclosure triangles and unboxed controls. */
+.writingSidebar #sidebarTools>summary{display:flex!important;padding:9px 12px;font-size:var(--ui-font);border-bottom:1px solid #1c1e21}
+.toolDrawer>summary::after{content:'▾'!important;border:0!important;transform:none!important;width:auto!important;height:auto!important;font-size:10px;margin-left:7px;color:var(--ui-ink)}
+.writingSidebar #sidebarTools>summary::after{display:none!important}
+.writingSidebar .drawerContent>.toolDrawer>summary::after{display:none!important}
+.writingSidebar .drawerContent>.toolDrawer>summary::before{content:'▸';font-size:11px;width:14px;margin-right:8px}
+.writingSidebar .drawerContent>.toolDrawer[open]>summary::before{content:'▾'}
+.writingSidebar #sidebarTools>.drawerContent{padding:0 14px!important}
+.writingSidebar .toolDrawer>summary{background:transparent!important;padding:14px 0!important;border:0!important;color:var(--ui-ink)}
+.writingSidebar .drawerContent .drawerContent{padding:0 22px 14px!important}
+.writingSidebar select{border-radius:4px!important;border:1px solid #484c52!important;background:var(--ui-field)!important}
+.referenceHeader summary,.operationsToolbar>details>summary{background:transparent}
+.referenceHeader{background:var(--ui-bg)!important}
+.operationsToolbar>details{border-right:1px solid #202226}
+.operationsToolbar>details>summary{padding:0 15px;letter-spacing:0}
+.operationsToolbar>details[open]>summary{background:var(--ui-selected)!important}
+.referenceTransport #play,.referenceTransport #stop,.referenceTransport #loop{min-width:30px!important;height:30px;font-size:0!important;background:transparent!important}
+.referenceTransport #play::after{content:'▶';font-size:17px}
+.referenceTransport #stop::after{content:'■';font-size:16px}
+.referenceTransport #loop::after{content:'↻';font-size:18px}
+.referenceTransport .tempoControl{font-size:0!important}
+.referenceTransport #bpmText{font-size:12px}
+.referenceTransport #bpm{width:44px}
+#notationToolbar #dotTool,#notationToolbar #tieTool{font-size:0!important;width:30px;min-width:30px;max-width:30px}
+#notationToolbar #dotTool::after{content:'·';font-size:27px}
+#notationToolbar #tieTool::after{content:'⌢';font-size:26px}
+#notationToolbar .toolGroup button.active{background:var(--ui-selected)!important;border:0!important}
+#notationToolbar .manualHead button{border:0!important;background:transparent!important;box-shadow:none!important}
+#scoreWrap.layout-pages{padding:28px 36px!important}
+#scoreWrap.layout-pages .scorePage{width:max-content;min-width:calc(710px * var(--page-scale,1));min-height:calc(1040px * var(--page-scale,1));padding:calc(32px * var(--page-scale,1))}
+#scoreWrap .pageTitle{text-align:left!important;font:12px "Segoe UI",sans-serif!important;margin-bottom:22px!important}
+.referenceTransport #play[data-playing="true"]::after{content:'Ⅱ'}
+.referenceTransport #loop.active::after{color:var(--ui-accent)}
+
+.referenceHeader .toolDrawer>.drawerContent{background:var(--ui-field)!important;color:var(--ui-ink)!important;border:1px solid var(--ui-border)!important;box-shadow:0 12px 30px #0005;z-index:100}
+.scoreWrap svg .noteHit{fill:transparent!important;stroke:none!important;pointer-events:all;cursor:pointer}
+#harmonyAction{background:var(--ui-field)!important;color:var(--ui-ink)!important;border:1px solid var(--ui-border);margin:8px 12px;padding:12px;border-radius:6px}
+#harmonyAction[hidden]{display:none!important}
+
+/* Header popovers must sit above the command and notation stacking contexts. */
+#referenceHeader{position:relative!important;z-index:200!important;overflow:visible!important}
+#referenceHeader .fileTools{overflow:visible}
+#referenceHeader .fileTools>.toolDrawer>.drawerContent{z-index:210!important}
+#referenceHeader #customizationMenu>.drawerContent{z-index:210!important}
+#harmonyAction{min-height:180px;transition:none!important;animation:none!important}
+#harmonyAction[aria-busy="true"]{cursor:progress}
+#harmonyAction button:disabled,#harmonyAction select:disabled{opacity:.6;cursor:wait}
+
+/* Mobile notation studio: one viewport, writing ribbon or function drawer. */
+.mobileControls{display:none}
+@media(max-width:760px){
+ html,body{height:100%;overflow:hidden;overscroll-behavior:none}
+ #app[data-mobile-workspace]{height:100dvh;min-height:0;overflow:hidden}
+ #app[data-mobile-workspace]>main{display:flex!important;flex:1;min-height:0;height:auto;overflow:hidden}
+ #app[data-mobile-workspace] .writingSidebar{display:none}
+ #app[data-mobile-workspace] .workspace{height:100%;min-height:0!important;overflow:hidden}
+ #app[data-mobile-workspace] #referenceHeader{height:52px!important;min-height:52px!important;padding:0 max(8px,env(safe-area-inset-right)) 0 max(8px,env(safe-area-inset-left))!important;position:relative!important;top:0}
+ #app[data-mobile-workspace] #referenceHeader>.fileTools,#app[data-mobile-workspace] #referenceHeader>.referenceTitle{display:none}
+ #app[data-mobile-workspace] .mobileControls{display:flex;width:100%;align-items:center;gap:6px;min-width:0}
+ #app[data-mobile-workspace] .mobileBrand{font-size:14px;letter-spacing:-.3px;margin-right:auto;font-weight:600}
+ #app[data-mobile-workspace] #mobileEdit,#app[data-mobile-workspace] #mobileDelete{min-height:42px;white-space:nowrap;border:1px solid var(--ui-border);background:var(--ui-field);padding:6px 10px;border-radius:6px;font-size:14px}
+ #app[data-mobile-edit="true"] #mobileEdit{background:var(--ui-selected);border-color:var(--ui-accent)}
+ #app[data-mobile-workspace] #mobileMenu,#app[data-mobile-workspace] #mobileMeasures{margin:0;border:0;background:transparent}
+ #app[data-mobile-workspace] #mobileMenu>summary,#app[data-mobile-workspace] #mobileMeasures>summary{display:flex;align-items:center;min-height:42px;padding:6px 9px!important;font-size:14px!important;border:1px solid var(--ui-border)!important;border-radius:6px;background:var(--ui-field)!important}
+ #app[data-mobile-workspace] #mobileOptions,#app[data-mobile-workspace] #mobileWritingOptions{position:fixed!important;top:54px!important;left:8px!important;right:8px!important;width:auto!important;max-width:none;max-height:calc(72dvh - 54px);overflow:auto;overscroll-behavior:contain;padding:12px!important;border-radius:10px;box-shadow:0 12px 30px #0004;z-index:220!important;background:var(--ui-field)!important}
+ #app[data-mobile-workspace] #mobileOptions>.toolDrawer,#app[data-mobile-workspace] #mobileWritingOptions .toolDrawer{display:block;margin:0;border:0;border-bottom:1px solid var(--ui-border);border-radius:0;background:transparent!important}
+ #app[data-mobile-workspace] #mobileOptions summary,#app[data-mobile-workspace] #mobileWritingOptions summary{padding:12px 8px!important;min-height:44px;font-size:15px!important;font-weight:500!important;border:0!important}
+ #app[data-mobile-workspace] #mobileOptions .drawerContent,#app[data-mobile-workspace] #mobileWritingOptions .drawerContent{position:static!important;top:auto!important;left:auto!important;right:auto!important;width:auto!important;max-width:none;max-height:none!important;overflow:visible;padding:6px 8px 14px!important;border:0!important;box-shadow:none!important;background:var(--ui-field)!important}
+ #app[data-mobile-workspace] #mobileOptions button,#app[data-mobile-workspace] #mobileWritingOptions button{min-height:44px;font-size:14px;padding:10px 12px;margin:4px 0}
+ #app[data-mobile-workspace] #mobileOptions select,#app[data-mobile-workspace] #mobileOptions input:not([type=checkbox]):not([type=range]):not([type=color]),#app[data-mobile-workspace] #mobileWritingOptions select{font-size:16px;min-height:44px;max-width:100%}
+ #app[data-mobile-workspace] #mobileOptions label,#app[data-mobile-workspace] #mobileWritingOptions label{font-size:14px}
+ #app[data-mobile-workspace] #mobileWritingOptions #sidebarTools>summary,#app[data-mobile-workspace] .writingHints{display:none}
+ #app[data-mobile-workspace] #mobileOptions #valueShortcutSettings{display:flex;align-items:center;gap:8px;padding:12px 8px;white-space:normal}
+ #app[data-mobile-workspace] #operationsToolbar{height:44px;min-height:44px;justify-content:flex-end;flex-wrap:nowrap;padding:0 6px}
+ #app[data-mobile-edit="true"] #operationsToolbar{display:none}
+ #app[data-mobile-workspace] .referenceTransport{width:100%;justify-content:space-between;padding:0;gap:6px}
+ #app[data-mobile-workspace] .referenceTransport .tempoControl{display:flex!important;gap:6px}
+ #app[data-mobile-workspace] .referenceTransport #bpm{width:70px}
+ #app[data-mobile-workspace] .referenceTransport #play,#app[data-mobile-workspace] .referenceTransport #stop,#app[data-mobile-workspace] .referenceTransport #loop,#app[data-mobile-workspace] .referenceTransport .expandScore{width:42px!important;min-width:42px!important;height:42px!important}
+ #app[data-mobile-edit="false"] #notationToolbar{display:none!important}
+ #app[data-mobile-workspace] #notationToolbar{height:100px;min-height:100px;flex-wrap:nowrap!important;padding:4px 8px!important}
+ #app[data-mobile-workspace] #notationToolbar .manualHead,#app[data-mobile-workspace] #notationToolbar .numberShortcutToggle{display:none}
+ #app[data-mobile-workspace] #notationToolbar .notationLine{display:grid!important;grid-template-columns:auto minmax(0,1fr) auto;gap:2px 4px;width:100%;min-width:0}
+ #app[data-mobile-workspace] #notationToolbar .notationLine>.toolRow:first-child{grid-column:1/-1;min-width:0;overflow:auto;scrollbar-width:none}
+ #app[data-mobile-workspace] #notationToolbar .notationLine>.toolRow:nth-child(3){min-width:0;overflow:auto;scrollbar-width:none}
+ #app[data-mobile-workspace] #notationToolbar .toolGroup button{width:42px;min-width:42px;height:44px;min-height:44px;border-radius:5px}
+ #app[data-mobile-workspace] #notationToolbar .toolGlyph{font-size:29px!important}
+ #app[data-mobile-workspace] #notationToolbar #dotTool,#app[data-mobile-workspace] #notationToolbar #tieTool{width:40px;min-width:40px;max-width:40px;min-height:44px}
+ #app[data-mobile-workspace] #restsMenu>summary{height:44px;display:flex;align-items:center;font-size:13px!important;padding:4px!important}
+ #app[data-mobile-workspace] #restsMenu>.drawerContent{position:fixed;top:153px!important;left:8px!important;right:8px!important;width:auto;max-width:none;min-width:0;overflow:auto;padding:8px!important;border-radius:8px;z-index:230}
+ #app[data-mobile-workspace] .documentTab{height:26px;min-height:26px}
+ #app[data-mobile-workspace] #scoreTitle{overflow:hidden;text-overflow:ellipsis;font-size:12px!important;padding:4px!important}
+ #app[data-mobile-workspace] #status{max-height:42px;font-size:12px!important}
+ #app[data-mobile-workspace] #scoreView{flex:1;min-height:0!important;height:auto;overflow:hidden;padding:0}
+ #app[data-mobile-workspace] #scoreWrap,#app[data-mobile-workspace] #scoreWrap.layout-pages{flex:1!important;height:auto!important;min-height:0!important;max-height:none!important;padding:14px 12px!important;touch-action:pan-x pan-y;overscroll-behavior:contain}
+ #app[data-mobile-workspace] #scoreView>.viewTools{flex:none;min-height:44px;justify-content:center;padding:2px 8px calc(2px + env(safe-area-inset-bottom))!important;position:static;margin:0}
+ #app[data-mobile-workspace] .workspaceZoom{display:flex;align-items:center;gap:12px}
+ #app[data-mobile-workspace] .workspaceZoom button{min-height:40px!important;min-width:44px;font-size:20px!important}
+ #app[data-mobile-workspace] .workspaceZoom input{min-height:36px!important;font-size:16px!important;width:62px}
+ #app[data-mobile-workspace] #harmonyAction{min-height:0;max-height:35dvh;margin:6px;padding:10px}
+ #app[data-mobile-workspace] .scoreView:fullscreen .scoreTopBar,#app[data-mobile-workspace] .fullscreenFallback .scoreTopBar{display:none}
+ .importPanel{padding:6px}.importWindow{max-height:calc(100dvh - 12px);padding:12px}.importMetadata{display:flex;flex-wrap:wrap}.importMetadata label{flex:1 1 130px;min-width:0}.importWindow select,.importWindow input{font-size:16px!important}.importWindow button{min-height:44px}.importWindow .panelHead h2{font-size:17px}
+}
+@media(max-width:370px){#app[data-mobile-workspace] .mobileBrand{font-size:12px}#app[data-mobile-workspace] #mobileEdit{padding:6px}#app[data-mobile-workspace] .referenceTransport #bpm{width:48px}}
+.measureDeleteTools{display:flex;align-items:end;gap:8px;flex-wrap:wrap}.measureDeleteTools label{flex:1;min-width:100px}.measureDeleteTools input{width:100%}
+@media(max-width:760px){#app[data-mobile-workspace] #mobileWritingOptions .scoreNav{display:flex;flex-wrap:wrap;gap:8px}#app[data-mobile-workspace] #mobileWritingOptions .scoreNav strong{width:100%;font-size:14px}#app[data-mobile-workspace] #mobileWritingOptions .measureDeleteTools button{flex:1}#app[data-mobile-workspace] #mobileWritingOptions #measureToDelete{font-size:16px;min-height:44px}}
+
+#automaticSeventhsOptions { padding: 10px 0; border-top: 1px solid #aab2ba; }
+#automaticSeventhDegrees { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 8px; margin: 12px 0; }
+#automaticSeventhDegrees label { display: flex; align-items: center; gap: 5px; }
+#pdfDensityOptions { display: grid; gap: 6px; margin: 10px 0; }
+#pdfDensityOptions[hidden] { display: none; }

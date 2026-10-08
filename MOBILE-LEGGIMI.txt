@@ -1,0 +1,42 @@
+INTERFACCIA MOBILE — 7 ottobre 2026
+
+Disponibile con viewport fino a 760px. Il desktop conserva il layout esistente.
+
+- Modifica: barra dei valori, Pause, alterazioni, punto e legatura.
+  Battute apre navigazione, aggiunta battute, armatura e metrica.
+  Il tasto con simbolo di cancellazione elimina la nota selezionata.
+- Disattivando Modifica: la barra di scrittura scompare, compaiono ascolto,
+  velocità e menu Funzioni. Il menu contiene Genera basso, Armonizza,
+  Modulazioni, Tonicizzazioni, Accordi e settime, Strumenti, Personalizza,
+  Importa, Esporta, disposizione voci, vista, cifrature e scorciatoie numeriche.
+- Le funzioni sono gli stessi controlli del desktop: non copie separate.
+  Le scelte e i valori non vengono persi passando da mobile a desktop.
+- Partitura nello spazio rimasto, scorrimento dentro il foglio, zoom in basso.
+  Il foglio conserva note leggibili e non viene rimpicciolito per farlo entrare
+  forzatamente nella larghezza del telefono: scorri lateralmente o usa lo zoom.
+- Barra e menu disponibili anche a schermo intero.
+- Menu opachi, controlli touch da 42–44px, campi a 16px, viewport dinamica.
+  Aprire una funzione non chiude la tendina che la contiene.
+- Scegliere una pausa richiude la tendina Pause. Avviare armonizzazione,
+  generazione o importazione lascia spazio alla partitura.
+
+TEST
+277 test automatici superati, zero falliti. Sei test specifici mobile:
+spostamento dei controlli, conservazione delle azioni/valori, cambio modalità,
+ripristino esatto desktop, schermo intero/chiusura tendine, vincoli CSS e
+apertura dei menu annidati. Ultimo controllo dopo la rifinitura: 9 test
+mobile/avvio offline superati. Sono inclusi i precedenti fix delle modulazioni.
+
+LIMITI DELLA VERIFICA
+Test di comportamento su DOM simulato e bundle offline. Non è stata eseguita
+una prova visuale su un telefono reale o un deploy sul tuo account.
+
+DOPO L'AGGIORNAMENTO
+1. Sostituisci i file, esegui AGGIORNA-SITI.cmd.
+2. Ricarica completamente il sito. Su mobile chiudi/riapri la pagina; se resta
+   vecchia, svuota la cache del sito nel browser, non i dati dell'esercizio.
+3. Tocca Modifica: prova nota, pausa, alterazione, punto e aggiunta battuta.
+4. Disattiva Modifica: apri Funzioni e prova importazione e armonizzazione.
+5. Prova schermo intero, rotazione e passaggio a larghezza desktop.
+
+Password, key e database restano invariati. Offline incluso senza key.

@@ -1,0 +1,5 @@
+249 test automatici passati, 0 fallimenti; successiva verifica mirata finale disponibile in TEST-CADENZA-TENUTA.txt.
+Controlli nuovi: plagale sul pedale in tutte le 30 tonalità; basso immutato; ritmi 1+1+2 nelle tre voci superiori; condotta e risoluzione di IV64; voci bloccate incompatibili rifiutate; un solo attacco del basso nell’ascolto e nel MIDI; legature mantenute; PDF reale ispezionato visivamente; MusicXML letto nuovamente per verificare le durate per rigo e le tre cifrature; integrazione UI conferma, selezione e ricalcolo; versione offline ricompilata.
+Suite: node --test --test-reporter=spec tests/*.test.mjs music-tests/*.test.mjs
+Test mirati finali: ui.test.mjs, held-cadence.test.mjs, offline.test.mjs.
+Verifica DOM automatica, PDF ispezionato visivamente; nessuna prova in browser reale per questa consegna.

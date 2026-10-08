@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {generateMeteredBass,generationKeys} from '../sito/public/app/bass-generator.mjs';
+import {KEYS} from '../sito/public/app/engine.mjs';
+import {tonalIssues} from '../sito/public/app/tonal.mjs';
+import {eventUnits,fillMeasures} from '../sito/public/app/notation.mjs';
+function check(r,key,meter,bars){assert.equal(r.measureCount,bars);const [beats,den]=meter.split('/').map(Number),bar=beats*64/den;assert.equal(r.events.at(-1).start+eventUnits(r.events.at(-1)),bars*bar);for(let b=0;b<bars;b++)assert.equal(r.events.filter(e=>Math.floor(e.start/bar)===b).reduce((sum,e)=>sum+eventUnits(e),0),bar);fillMeasures(r.events,meter);assert.ok(r.solutions.length);for(const sol of r.solutions){assert.deepEqual(sol.map(c=>c.voices[0]),r.bass);sol.forEach((c,i)=>assert.deepEqual(tonalIssues(sol[i-1],c,key,3),[]))}}
+test('15 battute complete in 4/4 e 6/8, con tutte le note verificabili',()=>{for(const meter of ['4/4','6/8','3/2'])check(generateMeteredBass({bars:15,meter,level:3}),'Do maggiore',meter,15)});
+test('generazione in tutte le tonalità senza cambiare il numero di battute',()=>{for(const key of Object.keys(KEYS))check(generateMeteredBass({bars:3,key,level:3}),key,'4/4',3)});
+test('modulazione nella battuta e posizione richieste con V–I di conferma',()=>{for(const key of ['Sol maggiore','Fa maggiore','Re minore','La minore','Mi minore']){const r=generateMeteredBass({bars:15,level:3,modulations:[{bar:8,position:2,key}]});check(r,'Do maggiore','4/4',15);assert.equal(r.tonalEvents[0].index,29);for(const sol of r.solutions){assert.equal(sol[29].key,key);assert.equal(sol[30].root,4);assert.equal(sol[31].root,0)}}});
+test('percorso andata e ritorno breve mantiene le due cadenze',()=>{const r=generateMeteredBass({bars:2,level:3,modulations:[{bar:1,position:2,key:'Sol maggiore'},{bar:2,position:1,key:'Do maggiore'}]});check(r,'Do maggiore','4/4',2);assert.equal(r.tonalEvents.length,2)});
+test('tonalità vicine prima delle altre e posizioni non valide segnalate',()=>{const keys=generationKeys('Do maggiore');assert.ok(keys.near.includes('Sol maggiore'));assert.ok(keys.others.includes('Si maggiore'));assert.ok(!keys.others.some(k=>keys.near.includes(k)));for(const o of [{bars:0},{bars:1,modulations:[{bar:2,position:1,key:'Sol maggiore'}]},{bars:2,modulations:[{bar:2,position:4,key:'Sol maggiore'}]}])assert.throws(()=>generateMeteredBass(o))});
+
+test('dominanti secondarie nel generatore restano disponibili a battute fisse',()=>{const r=generateMeteredBass({bars:15,level:3,secondaryEnabled:true,secondaryTargets:[4]});check(r,'Do maggiore','4/4',15);assert.equal(r.tonalEvents[0].kind,'tonicization');assert.equal(r.tonalEvents[0].degree,4);assert.ok(r.solutions.every(s=>s.some(c=>c.secondaryDegree===4)))});

@@ -1,0 +1,2135 @@
+<svg viewBox="0 0 840 1188" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="visible" id="editor-sheet-1">
+   <desc>Engraved by Verovio 6.3.0-425dd7b</desc>
+   <defs><g id="E050-xe7wrzy">
+         <path transform="scale(1,-1)" d="M420 -206l-58 329c-59 -14 -104 -63 -104 -124c0 -49 22 -75 61 -99c12 -8 22 -13 22 -22s-9 -13 -17 -13c-80 0 -135 96 -135 166c0 94 62 190 153 217c-7 41 -14 88 -23 142c-15 -15 -31 -29 -48 -44c-88 -76 -174 -185 -174 -307c0 -151 122 -251 265 -251 c19 0 38 2 58 6zM332 822c-8 -31 -11 -65 -11 -102c0 -42 5 -81 11 -121c69 68 146 146 146 250c0 69 -24 118 -39 118c-52 0 -98 -105 -107 -145zM562 -21c0 89 -65 150 -155 150c7 -44 34 -203 55 -323c71 29 100 102 100 173zM122 -513c0 66 45 123 115 123 c75 0 116 -57 116 -111c0 -64 -47 -104 -94 -111c-3 -1 -5 -2 -5 -4c0 -1 2 -2 3 -3c2 0 23 -5 47 -5c101 0 154 55 154 159c0 53 -11 123 -30 219c-23 -4 -50 -7 -79 -7c-186 0 -349 147 -349 334c0 200 126 321 217 406c21 17 73 70 74 71c-17 112 -22 161 -22 215 c0 84 18 212 82 288c33 39 64 51 71 51c18 0 47 -35 71 -86c16 -36 44 -110 44 -201c0 -159 -73 -284 -179 -395c9 -56 19 -115 29 -175c146 0 253 -102 253 -253c0 -103 -73 -205 -171 -237c6 -39 12 -69 15 -89c10 -57 16 -102 16 -141c0 -63 -14 -129 -68 -167 c-36 -22 -77 -34 -124 -34c-135 0 -186 87 -186 153z" />
+      </g><g id="E262-xe7wrzy">
+         <path transform="scale(1,-1)" d="M78 74v-166l89 19v165zM233 105l-38 -7v-165l33 7h2c8 0 14 -6 14 -14v-59c0 -6 -5 -13 -11 -14l-38 -7v-147h-28v141l-89 -18v-155h-28v149l-33 -7h-3c-8 0 -14 6 -14 14v58c0 6 5 13 11 14l39 8v165l-33 -7h-3c-8 0 -14 6 -14 14v58c0 6 5 13 11 14l39 8v147h28v-141 l89 18v155h28v-149l33 7h2c8 0 14 -6 14 -14v-59c0 -6 -5 -13 -11 -14z" />
+      </g><g id="E084-xe7wrzy">
+         <path transform="scale(1,-1)" d="M208 -127h-172c-9 0 -11 6 -11 6s-7 11 -10 18c-1 2 -1 4 -1 6c0 6 3 11 3 11c26 37 56 87 82 168s31 155 31 155c1 6 6 12 13 12h149c4 0 7 -2 10 -4l22 -22c1 -1 3 -5 3 -10c0 -4 -1 -9 -5 -14c-118 -158 -230 -278 -230 -278h116v82c0 4 1 8 4 11l91 83c3 3 7 3 11 3 c2 0 3 0 5 -1l12 -6c4 -2 7 -7 7 -13v-159h90c8 0 14 -7 14 -14v-19c0 -8 -6 -15 -14 -15h-90v-74h90c8 0 14 -6 14 -14v-19c0 -8 -6 -14 -14 -14h-303c-7 0 -14 6 -14 14v19c0 8 7 14 14 14h83v74z" />
+      </g><g id="E0A4-xe7wrzy">
+         <path transform="scale(1,-1)" d="M0 -42c0 92 116 174 213 174c62 0 112 -33 112 -92c0 -88 -109 -173 -213 -173c-81 0 -112 48 -112 91z" />
+      </g><g id="E240-xe7wrzy">
+         <path transform="scale(1,-1)" d="M0 -227v226c0 7 6 13 13 13c6 0 11 -4 12 -8c0 0 9 -36 10 -39c2 -4 19 -61 56 -118c27 -42 122 -165 119 -165c0 0 74 -95 79 -224c0 -91 -17 -184 -62 -264c-4 -7 -9 -11 -16 -11c-6 0 -10 4 -10 10c-1 4 1 9 3 15c26 72 45 146 45 218c0 83 -29 126 -47 157 c-65 111 -151 165 -194 179c-7 3 -8 8 -8 11z" />
+      </g><g id="E062-xe7wrzy">
+         <path transform="scale(1,-1)" d="M568 124c0 28 22 51 48 51s48 -23 48 -51s-22 -50 -48 -50s-48 22 -48 50zM254 251c180 0 274 -112 274 -286c0 -184 -158 -362 -298 -463c-91 -71 -205 -118 -206 -118s-4 -1 -5 -1c-6 0 -15 2 -18 12c0 2 -1 3 -1 5c0 12 12 19 12 19c1 0 99 45 203 140 c98 88 181 275 181 405c0 168 -50 250 -152 250c-35 0 -67 -6 -92 -20c-39 -21 -69 -65 -76 -109c8 7 25 17 35 21c9 3 20 5 32 5c56 0 106 -47 106 -104c0 -66 -50 -109 -114 -109c-74 0 -116 54 -116 127s38 139 97 182c1 0 62 44 138 44zM568 -123c0 28 22 51 48 51 s48 -23 48 -51s-22 -51 -48 -51s-48 23 -48 51z" />
+      </g><g id="EAAF-xe7wrzy">
+         <path transform="scale(1,-1)" d="M0 44c-17 -5 -6 17 0 24c32 32 58 44 74 44c45 0 46 -64 76 -64c10 0 26 0 48 20c17 5 5 -17 0 -24c-32 -32 -58 -44 -74 -44c-45 0 -46 64 -76 64c-10 0 -26 0 -48 -20z" />
+      </g><g id="E050-aq925c5">
+         <path transform="scale(1,-1)" d="M420 -206l-58 329c-59 -14 -104 -63 -104 -124c0 -49 22 -75 61 -99c12 -8 22 -13 22 -22s-9 -13 -17 -13c-80 0 -135 96 -135 166c0 94 62 190 153 217c-7 41 -14 88 -23 142c-15 -15 -31 -29 -48 -44c-88 -76 -174 -185 -174 -307c0 -151 122 -251 265 -251 c19 0 38 2 58 6zM332 822c-8 -31 -11 -65 -11 -102c0 -42 5 -81 11 -121c69 68 146 146 146 250c0 69 -24 118 -39 118c-52 0 -98 -105 -107 -145zM562 -21c0 89 -65 150 -155 150c7 -44 34 -203 55 -323c71 29 100 102 100 173zM122 -513c0 66 45 123 115 123 c75 0 116 -57 116 -111c0 -64 -47 -104 -94 -111c-3 -1 -5 -2 -5 -4c0 -1 2 -2 3 -3c2 0 23 -5 47 -5c101 0 154 55 154 159c0 53 -11 123 -30 219c-23 -4 -50 -7 -79 -7c-186 0 -349 147 -349 334c0 200 126 321 217 406c21 17 73 70 74 71c-17 112 -22 161 -22 215 c0 84 18 212 82 288c33 39 64 51 71 51c18 0 47 -35 71 -86c16 -36 44 -110 44 -201c0 -159 -73 -284 -179 -395c9 -56 19 -115 29 -175c146 0 253 -102 253 -253c0 -103 -73 -205 -171 -237c6 -39 12 -69 15 -89c10 -57 16 -102 16 -141c0 -63 -14 -129 -68 -167 c-36 -22 -77 -34 -124 -34c-135 0 -186 87 -186 153z" />
+      </g><g id="E262-aq925c5">
+         <path transform="scale(1,-1)" d="M78 74v-166l89 19v165zM233 105l-38 -7v-165l33 7h2c8 0 14 -6 14 -14v-59c0 -6 -5 -13 -11 -14l-38 -7v-147h-28v141l-89 -18v-155h-28v149l-33 -7h-3c-8 0 -14 6 -14 14v58c0 6 5 13 11 14l39 8v165l-33 -7h-3c-8 0 -14 6 -14 14v58c0 6 5 13 11 14l39 8v147h28v-141 l89 18v155h28v-149l33 7h2c8 0 14 -6 14 -14v-59c0 -6 -5 -13 -11 -14z" />
+      </g><g id="E084-aq925c5">
+         <path transform="scale(1,-1)" d="M208 -127h-172c-9 0 -11 6 -11 6s-7 11 -10 18c-1 2 -1 4 -1 6c0 6 3 11 3 11c26 37 56 87 82 168s31 155 31 155c1 6 6 12 13 12h149c4 0 7 -2 10 -4l22 -22c1 -1 3 -5 3 -10c0 -4 -1 -9 -5 -14c-118 -158 -230 -278 -230 -278h116v82c0 4 1 8 4 11l91 83c3 3 7 3 11 3 c2 0 3 0 5 -1l12 -6c4 -2 7 -7 7 -13v-159h90c8 0 14 -7 14 -14v-19c0 -8 -6 -15 -14 -15h-90v-74h90c8 0 14 -6 14 -14v-19c0 -8 -6 -14 -14 -14h-303c-7 0 -14 6 -14 14v19c0 8 7 14 14 14h83v74z" />
+      </g><g id="E0A4-aq925c5">
+         <path transform="scale(1,-1)" d="M0 -42c0 92 116 174 213 174c62 0 112 -33 112 -92c0 -88 -109 -173 -213 -173c-81 0 -112 48 -112 91z" />
+      </g><g id="E240-aq925c5">
+         <path transform="scale(1,-1)" d="M0 -227v226c0 7 6 13 13 13c6 0 11 -4 12 -8c0 0 9 -36 10 -39c2 -4 19 -61 56 -118c27 -42 122 -165 119 -165c0 0 74 -95 79 -224c0 -91 -17 -184 -62 -264c-4 -7 -9 -11 -16 -11c-6 0 -10 4 -10 10c-1 4 1 9 3 15c26 72 45 146 45 218c0 83 -29 126 -47 157 c-65 111 -151 165 -194 179c-7 3 -8 8 -8 11z" />
+      </g><g id="E062-aq925c5">
+         <path transform="scale(1,-1)" d="M568 124c0 28 22 51 48 51s48 -23 48 -51s-22 -50 -48 -50s-48 22 -48 50zM254 251c180 0 274 -112 274 -286c0 -184 -158 -362 -298 -463c-91 -71 -205 -118 -206 -118s-4 -1 -5 -1c-6 0 -15 2 -18 12c0 2 -1 3 -1 5c0 12 12 19 12 19c1 0 99 45 203 140 c98 88 181 275 181 405c0 168 -50 250 -152 250c-35 0 -67 -6 -92 -20c-39 -21 -69 -65 -76 -109c8 7 25 17 35 21c9 3 20 5 32 5c56 0 106 -47 106 -104c0 -66 -50 -109 -114 -109c-74 0 -116 54 -116 127s38 139 97 182c1 0 62 44 138 44zM568 -123c0 28 22 51 48 51 s48 -23 48 -51s-22 -51 -48 -51s-48 23 -48 51z" />
+      </g><g id="EAAF-aq925c5">
+         <path transform="scale(1,-1)" d="M0 44c-17 -5 -6 17 0 24c32 32 58 44 74 44c45 0 46 -64 76 -64c10 0 26 0 48 20c17 5 5 -17 0 -24c-32 -32 -58 -44 -74 -44c-45 0 -46 64 -76 64c-10 0 -26 0 -48 -20z" />
+      </g></defs>
+   
+   <svg class="definition-scale" color="black" font-family="Times, serif" viewBox="0 0 21000 29700">
+      <g class="page-margin" transform="translate(1800,2500)"><g data-frame="e-a8f98e07-86f7-4000-8522-2484d654a53f" class="editorFrame" id="e-a8f98e07-86f7-4000-8522-2484d654a53f"><text text-anchor="middle" font-family="serif" font-size="423.33359999999993" y="623.3335999999999" x="8700"><tspan dy="0" x="8700">Studio in re maggiore</tspan><tspan dy="550.33368" x="8700">Cornice di testo e distanza tra pentagrammi</tspan></text></g><g class="editorPositionedSystem" transform="translate(0,1739)"><g id="d1h257fr" class="system">
+            <g id="bbox-d1h257fr" class="system bounding-box">
+               <rect x="-1" y="1067" height="3667" width="27" fill="transparent" stroke-width="0" />
+            </g>
+            <path d="M13 1080 L13 4720" stroke-width="27" />
+            <g id="l1g9m3fn" class="grpSym">
+               <g id="bbox-l1g9m3fn" class="grpSym bounding-box">
+                  <rect x="-252" y="1098" height="3604" width="180" fill="transparent" stroke-width="0" />
+               </g>
+               <path d="M-72,4702 C-432,4162 18,3080 -252,2900 C81,3080 -369,4162 -72,4702" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+               <path d="M-72,1098 C-369,1638 81,2720 -252,2900 C18,2720 -432,1638 -72,1098" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+            </g>
+            <g id="ai9ra5n" class="section systemMilestone" />
+            <g id="e-1f3d8ea9-015d-4d88-b894-f97f38b73b31" class="measure">
+               <g id="bbox-e-1f3d8ea9-015d-4d88-b894-f97f38b73b31" class="measure bounding-box" />
+               <g id="klnf12h" class="staff" data-n="1">
+                  <g id="bbox-klnf12h" class="staff bounding-box" data-n="1">
+                     <rect x="-7" y="1074" height="733" width="6114" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M0 1080 L6101 1080" stroke-width="13" />
+                  <path d="M0 1260 L6101 1260" stroke-width="13" />
+                  <path d="M0 1440 L6101 1440" stroke-width="13" />
+                  <path d="M0 1620 L6101 1620" stroke-width="13" />
+                  <path d="M0 1800 L6101 1800" stroke-width="13" />
+                  <g id="ip0qh45" class="clef">
+                     <g id="bbox-ip0qh45" class="clef bounding-box">
+                        <rect x="117" y="819" height="1280" width="460" fill="transparent" stroke-width="0" />
+                     </g>
+                     <use xlink:href="#E050-aq925c5" transform="translate(117, 1620) scale(0.72, 0.72)" />
+                  </g>
+                  <g id="j22an5l" class="keySig">
+                     <g id="bbox-j22an5l" class="keySig bounding-box">
+                        <rect x="775" y="839" height="750" width="387" fill="transparent" stroke-width="0" />
+                     </g>
+                     <g id="k1v6y8fm" class="keyAccid">
+                        <use xlink:href="#E262-aq925c5" transform="translate(775, 1080) scale(0.72, 0.72)" />
+                     </g>
+                     <g id="la1ys7e" class="keyAccid">
+                        <use xlink:href="#E262-aq925c5" transform="translate(987, 1350) scale(0.72, 0.72)" />
+                     </g>
+                  </g>
+                  <g id="mxtbu4a" class="meterSig">
+                     <g id="bbox-mxtbu4a" class="meterSig bounding-box">
+                        <rect x="1342" y="1081" height="717" width="308" fill="transparent" stroke-width="0" />
+                     </g>
+                     <use xlink:href="#E084-aq925c5" transform="translate(1332, 1260) scale(0.72, 0.72)" />
+                     <use xlink:href="#E084-aq925c5" transform="translate(1332, 1620) scale(0.72, 0.72)" />
+                  </g>
+                  <g id="l13on3em" class="layer">
+                     <g id="bbox-l13on3em" class="layer bounding-box" />
+                     <g id="m130sdys" class="graceGrp">
+                        <g id="bbox-m130sdys" class="graceGrp bounding-box" />
+                        <g id="e-1777ae39-a53a-49da-b90b-10080478a3f2-g0" class="note">
+                           <g id="bbox-e-1777ae39-a53a-49da-b90b-10080478a3f2-g0" class="note bounding-box">
+                              <rect x="2185" y="1818" height="143" width="175" fill="transparent" stroke-width="0" />
+                           </g>
+                           <g class="notehead">
+                              <use xlink:href="#E0A4-aq925c5" transform="translate(2185, 1890) scale(0.54, 0.54)" />
+                           </g>
+                           <g id="c1k17lvv" class="stem">
+                              <g id="bbox-c1k17lvv" class="stem bounding-box">
+                                 <rect x="2341" y="1409" height="469" width="18" fill="transparent" stroke-width="0" />
+                              </g>
+                              <path d="M2350 1869 L2350 1418" stroke-width="18" />
+                              <g id="d1nnkxxs" class="flag">
+                                 <g id="bbox-d1nnkxxs" class="flag bounding-box">
+                                    <rect x="2341" y="1412" height="447" width="156" fill="transparent" stroke-width="0" />
+                                 </g>
+                                 <use xlink:href="#E240-aq925c5" transform="translate(2341, 1418) scale(0.54, 0.54)" />
+                              </g>
+                           </g>
+                           <g id="o1eaadf9" class="accid">
+                              <g id="bbox-o1eaadf9" class="accid bounding-box">
+                                 <rect x="2009" y="1709" height="360" width="131" fill="transparent" stroke-width="0" />
+                              </g>
+                              <use xlink:href="#E262-aq925c5" transform="translate(2009, 1890) scale(0.54, 0.54)" />
+                           </g>
+                        </g>
+                     </g>
+                     <g id="e-93c01b27-4af3-43ed-936e-1b1d44cbd3c1" class="note">
+                        <g id="bbox-e-93c01b27-4af3-43ed-936e-1b1d44cbd3c1" class="note bounding-box">
+                           <rect x="2564" y="1795" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(2564, 1890) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="e19kksfs" class="stem">
+                           <g id="bbox-e19kksfs" class="stem bounding-box">
+                              <rect x="2779" y="1251" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M2788 1862 L2788 1260" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-d78fb696-90ac-4f8b-810b-4784cc5c19aa" class="note">
+                        <g id="bbox-e-d78fb696-90ac-4f8b-810b-4784cc5c19aa" class="note bounding-box">
+                           <rect x="3445" y="1615" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(3445, 1710) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="f1ufioxe" class="stem">
+                           <g id="bbox-f1ufioxe" class="stem bounding-box">
+                              <rect x="3660" y="1071" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M3669 1682 L3669 1080" stroke-width="18" />
+                        </g>
+                        <g id="ryoqhbf" class="accid">
+                           <g id="bbox-ryoqhbf" class="accid bounding-box">
+                              <rect x="3445" y="1710" height="0" width="0" fill="transparent" stroke-width="0" />
+                           </g>
+                        </g>
+                     </g>
+                     <g id="e-50b48119-8bc7-4133-84e1-34267acb7f19" class="note">
+                        <g id="bbox-e-50b48119-8bc7-4133-84e1-34267acb7f19" class="note bounding-box">
+                           <rect x="4326" y="1435" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(4326, 1530) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="g11vik2o" class="stem">
+                           <g id="bbox-g11vik2o" class="stem bounding-box">
+                              <rect x="4541" y="891" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M4550 1502 L4550 900" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-ac6170e5-95b5-4c2e-971f-3f6250f8792c" class="note">
+                        <g id="bbox-e-ac6170e5-95b5-4c2e-971f-3f6250f8792c" class="note bounding-box">
+                           <rect x="5207" y="1165" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(5207, 1260) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="h19mz5yc" class="stem">
+                           <g id="bbox-h19mz5yc" class="stem bounding-box">
+                              <rect x="5207" y="1281" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M5216 1290 L5216 1890" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="u8qi6e4" class="staff" data-n="2">
+                  <g id="bbox-u8qi6e4" class="staff bounding-box" data-n="2">
+                     <rect x="-7" y="3994" height="733" width="6114" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M0 4000 L6101 4000" stroke-width="13" />
+                  <path d="M0 4180 L6101 4180" stroke-width="13" />
+                  <path d="M0 4360 L6101 4360" stroke-width="13" />
+                  <path d="M0 4540 L6101 4540" stroke-width="13" />
+                  <path d="M0 4720 L6101 4720" stroke-width="13" />
+                  <g id="n1b9p5dc" class="clef">
+                     <g id="bbox-n1b9p5dc" class="clef bounding-box">
+                        <rect x="117" y="4000" height="624" width="478" fill="transparent" stroke-width="0" />
+                     </g>
+                     <use xlink:href="#E062-aq925c5" transform="translate(117, 4180) scale(0.72, 0.72)" />
+                  </g>
+                  <g id="o14nsngw" class="keySig">
+                     <g id="bbox-o14nsngw" class="keySig bounding-box">
+                        <rect x="775" y="3939" height="750" width="387" fill="transparent" stroke-width="0" />
+                     </g>
+                     <g id="p1e7n0hm" class="keyAccid">
+                        <use xlink:href="#E262-aq925c5" transform="translate(775, 4180) scale(0.72, 0.72)" />
+                     </g>
+                     <g id="qk3tgfg" class="keyAccid">
+                        <use xlink:href="#E262-aq925c5" transform="translate(987, 4450) scale(0.72, 0.72)" />
+                     </g>
+                  </g>
+                  <g id="r7p0kbj" class="meterSig">
+                     <g id="bbox-r7p0kbj" class="meterSig bounding-box">
+                        <rect x="1342" y="4001" height="717" width="308" fill="transparent" stroke-width="0" />
+                     </g>
+                     <use xlink:href="#E084-aq925c5" transform="translate(1332, 4180) scale(0.72, 0.72)" />
+                     <use xlink:href="#E084-aq925c5" transform="translate(1332, 4540) scale(0.72, 0.72)" />
+                  </g>
+                  <g id="v9d1ws6" class="layer">
+                     <g id="bbox-v9d1ws6" class="layer bounding-box" />
+                     <g id="e-16036588-072a-4571-881f-5bdf0286628e" class="note">
+                        <g id="bbox-e-16036588-072a-4571-881f-5bdf0286628e" class="note bounding-box">
+                           <rect x="2564" y="4265" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(2564, 4360) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="i9ra16a" class="stem">
+                           <g id="bbox-i9ra16a" class="stem bounding-box">
+                              <rect x="2564" y="4381" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M2573 4390 L2573 4960" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-fea029ad-534a-4c97-a763-18e437f92755" class="note">
+                        <g id="bbox-e-fea029ad-534a-4c97-a763-18e437f92755" class="note bounding-box">
+                           <rect x="3445" y="4085" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(3445, 4180) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="j2vxsxz" class="stem">
+                           <g id="bbox-j2vxsxz" class="stem bounding-box">
+                              <rect x="3445" y="4201" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M3454 4210 L3454 4810" stroke-width="18" />
+                        </g>
+                        <g id="yb5zp03" class="accid">
+                           <g id="bbox-yb5zp03" class="accid bounding-box">
+                              <rect x="3445" y="4180" height="0" width="0" fill="transparent" stroke-width="0" />
+                           </g>
+                        </g>
+                     </g>
+                     <g id="e-f2afcc31-7695-4a9f-ad42-aa591ae9f42f" class="note">
+                        <g id="bbox-e-f2afcc31-7695-4a9f-ad42-aa591ae9f42f" class="note bounding-box">
+                           <rect x="4326" y="3905" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(4326, 4000) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="k19tp9my" class="stem">
+                           <g id="bbox-k19tp9my" class="stem bounding-box">
+                              <rect x="4326" y="4021" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M4335 4030 L4335 4630" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-5cc35aec-6d0a-4b0c-9921-c2033a9970f4" class="note">
+                        <g id="bbox-e-5cc35aec-6d0a-4b0c-9921-c2033a9970f4" class="note bounding-box">
+                           <rect x="5207" y="4265" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(5207, 4360) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="lib7ahl" class="stem">
+                           <g id="bbox-lib7ahl" class="stem bounding-box">
+                              <rect x="5207" y="4381" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M5216 4390 L5216 4960" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="e-ea5f87e8-845f-4cf1-a45e-10a518181866" class="slur">
+                  <path d="M2861,1507 C3350,706 5029,545 5322,1057 C5000,605 3385,764 2861,1507" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+                  <g id="bbox-e-ea5f87e8-845f-4cf1-a45e-10a518181866" class="slur bounding-box">
+                     <rect x="2861" y="761" height="746" width="2461" fill="transparent" stroke-width="0" />
+                  </g>
+               </g>
+               <g id="j299vda" class="barLine">
+                  <g id="bbox-j299vda" class="barLine bounding-box">
+                     <rect x="6074" y="1067" height="3667" width="27" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M6088 1080 L6088 1800" stroke-width="27" />
+                  <path d="M6088 4000 L6088 4720" stroke-width="27" />
+                  <path d="M6088 1800 L6088 4000" stroke-width="27" />
+               </g>
+            </g>
+            <g id="e-456636ee-770e-428f-9b18-c316c6a7aeba" class="measure">
+               <g id="bbox-e-456636ee-770e-428f-9b18-c316c6a7aeba" class="measure bounding-box" />
+               <g id="lzjhc09" class="staff" data-n="1">
+                  <g id="bbox-lzjhc09" class="staff bounding-box" data-n="1">
+                     <rect x="6094" y="1074" height="733" width="3780" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M6101 1080 L9868 1080" stroke-width="13" />
+                  <path d="M6101 1260 L9868 1260" stroke-width="13" />
+                  <path d="M6101 1440 L9868 1440" stroke-width="13" />
+                  <path d="M6101 1620 L9868 1620" stroke-width="13" />
+                  <path d="M6101 1800 L9868 1800" stroke-width="13" />
+                  <g id="muwnqyd" class="layer">
+                     <g id="bbox-muwnqyd" class="layer bounding-box" />
+                     <g id="e-68348b14-780d-4675-8f34-c22a68363f0e" class="note">
+                        <g id="bbox-e-68348b14-780d-4675-8f34-c22a68363f0e" class="note bounding-box">
+                           <rect x="6331" y="1345" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(6331, 1440) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="m1248xzm" class="stem">
+                           <g id="bbox-m1248xzm" class="stem bounding-box">
+                              <rect x="6331" y="1461" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M6340 1470 L6340 2040" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-c439df4f-5a05-4334-b945-582932ebd296" class="note">
+                        <g id="bbox-e-c439df4f-5a05-4334-b945-582932ebd296" class="note bounding-box">
+                           <rect x="7212" y="1435" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(7212, 1530) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="nscqh7" class="stem">
+                           <g id="bbox-nscqh7" class="stem bounding-box">
+                              <rect x="7427" y="891" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M7436 1502 L7436 900" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-58b1959c-ac64-417e-95c5-4effaf99d6aa" class="note">
+                        <g id="bbox-e-58b1959c-ac64-417e-95c5-4effaf99d6aa" class="note bounding-box">
+                           <rect x="8093" y="1615" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(8093, 1710) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="o6cphxr" class="stem">
+                           <g id="bbox-o6cphxr" class="stem bounding-box">
+                              <rect x="8308" y="1071" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M8317 1682 L8317 1080" stroke-width="18" />
+                        </g>
+                        <g id="qr8ge39" class="accid">
+                           <g id="bbox-qr8ge39" class="accid bounding-box">
+                              <rect x="8093" y="1710" height="0" width="0" fill="transparent" stroke-width="0" />
+                           </g>
+                        </g>
+                     </g>
+                     <g id="e-25b7b903-2c70-4d2e-acc3-3a6191fefd3f" class="note">
+                        <g id="bbox-e-25b7b903-2c70-4d2e-acc3-3a6191fefd3f" class="note bounding-box">
+                           <rect x="8974" y="1795" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(8974, 1890) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="p1p3a5sf" class="stem">
+                           <g id="bbox-p1p3a5sf" class="stem bounding-box">
+                              <rect x="9189" y="1251" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M9198 1862 L9198 1260" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="s1ysvxha" class="staff" data-n="2">
+                  <g id="bbox-s1ysvxha" class="staff bounding-box" data-n="2">
+                     <rect x="6094" y="3994" height="733" width="3780" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M6101 4000 L9868 4000" stroke-width="13" />
+                  <path d="M6101 4180 L9868 4180" stroke-width="13" />
+                  <path d="M6101 4360 L9868 4360" stroke-width="13" />
+                  <path d="M6101 4540 L9868 4540" stroke-width="13" />
+                  <path d="M6101 4720 L9868 4720" stroke-width="13" />
+                  <g id="t1owygti" class="layer">
+                     <g id="bbox-t1owygti" class="layer bounding-box" />
+                     <g id="e-3e36aeb2-1794-4a43-8030-1fe49f377ed4" class="note">
+                        <g id="bbox-e-3e36aeb2-1794-4a43-8030-1fe49f377ed4" class="note bounding-box">
+                           <rect x="6331" y="3995" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(6331, 4090) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="q1ke7pw5" class="stem">
+                           <g id="bbox-q1ke7pw5" class="stem bounding-box">
+                              <rect x="6331" y="4111" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M6340 4120 L6340 4720" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-3a8d1a4c-db48-4adf-9f00-b03196538afa" class="note">
+                        <g id="bbox-e-3a8d1a4c-db48-4adf-9f00-b03196538afa" class="note bounding-box">
+                           <rect x="7212" y="4175" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(7212, 4270) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="rvlbtqj" class="stem">
+                           <g id="bbox-rvlbtqj" class="stem bounding-box">
+                              <rect x="7212" y="4291" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M7221 4300 L7221 4900" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-dac191e1-0c55-453d-bb7d-d2d38aab9ff8" class="note">
+                        <g id="bbox-e-dac191e1-0c55-453d-bb7d-d2d38aab9ff8" class="note bounding-box">
+                           <rect x="8093" y="3905" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(8093, 4000) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="s1xnk59l" class="stem">
+                           <g id="bbox-s1xnk59l" class="stem bounding-box">
+                              <rect x="8093" y="4021" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M8102 4030 L8102 4630" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-098a790e-b14f-44b9-8dc3-16f0f80dccb8" class="note">
+                        <g id="bbox-e-098a790e-b14f-44b9-8dc3-16f0f80dccb8" class="note bounding-box">
+                           <rect x="8974" y="4265" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(8974, 4360) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="t1vcrh5v" class="stem">
+                           <g id="bbox-t1vcrh5v" class="stem bounding-box">
+                              <rect x="8974" y="4381" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M8983 4390 L8983 4960" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="e-4cfbbc3c-79da-4f59-9cae-86b1cf16314f" class="gliss" transform="rotate(5.710593 6653,1462)">
+                  <use xlink:href="#EAAF-aq925c5" transform="translate(6653, 1502) scale(0.72, 0.72)" />
+                  <use xlink:href="#EAAF-aq925c5" transform="translate(6795, 1502) scale(0.72, 0.72)" />
+                  <use xlink:href="#EAAF-aq925c5" transform="translate(6937, 1502) scale(0.72, 0.72)" />
+                  <g id="bbox-e-4cfbbc3c-79da-4f59-9cae-86b1cf16314f" class="gliss bounding-box">
+                     <rect x="6643" y="1436" height="93" width="444" fill="transparent" stroke-width="0" />
+                  </g>
+               </g>
+               <g id="k15mcul3" class="barLine">
+                  <g id="bbox-k15mcul3" class="barLine bounding-box">
+                     <rect x="9841" y="1067" height="3667" width="27" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M9855 1080 L9855 1800" stroke-width="27" />
+                  <path d="M9855 4000 L9855 4720" stroke-width="27" />
+                  <path d="M9855 1800 L9855 4000" stroke-width="27" />
+               </g>
+            </g>
+            <g id="e-6323c8a8-cd27-490e-8d55-0d2822b7e355" class="measure">
+               <g id="bbox-e-6323c8a8-cd27-490e-8d55-0d2822b7e355" class="measure bounding-box" />
+               <g id="if7lw4b" class="staff" data-n="1">
+                  <g id="bbox-if7lw4b" class="staff bounding-box" data-n="1">
+                     <rect x="9861" y="1074" height="733" width="3780" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M9868 1080 L13635 1080" stroke-width="13" />
+                  <path d="M9868 1260 L13635 1260" stroke-width="13" />
+                  <path d="M9868 1440 L13635 1440" stroke-width="13" />
+                  <path d="M9868 1620 L13635 1620" stroke-width="13" />
+                  <path d="M9868 1800 L13635 1800" stroke-width="13" />
+                  <g id="jfq2o8w" class="layer">
+                     <g id="bbox-jfq2o8w" class="layer bounding-box" />
+                     <g id="e-b4763a56-ea32-4098-8a52-6748cdb2bbec" class="note">
+                        <g id="bbox-e-b4763a56-ea32-4098-8a52-6748cdb2bbec" class="note bounding-box">
+                           <rect x="10098" y="1795" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(10098, 1890) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="u1anwy2q" class="stem">
+                           <g id="bbox-u1anwy2q" class="stem bounding-box">
+                              <rect x="10313" y="1251" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M10322 1862 L10322 1260" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-3569ab82-6cfa-4e44-8610-6e122f456713" class="note">
+                        <g id="bbox-e-3569ab82-6cfa-4e44-8610-6e122f456713" class="note bounding-box">
+                           <rect x="10979" y="1615" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(10979, 1710) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="v1ly69ku" class="stem">
+                           <g id="bbox-v1ly69ku" class="stem bounding-box">
+                              <rect x="11194" y="1071" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M11203 1682 L11203 1080" stroke-width="18" />
+                        </g>
+                        <g id="mcduqtl" class="accid">
+                           <g id="bbox-mcduqtl" class="accid bounding-box">
+                              <rect x="10979" y="1710" height="0" width="0" fill="transparent" stroke-width="0" />
+                           </g>
+                        </g>
+                     </g>
+                     <g id="e-401ddc4a-3cf5-425d-9976-1a1c430095e0" class="note">
+                        <g id="bbox-e-401ddc4a-3cf5-425d-9976-1a1c430095e0" class="note bounding-box">
+                           <rect x="11860" y="1435" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(11860, 1530) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="w1bnyme" class="stem">
+                           <g id="bbox-w1bnyme" class="stem bounding-box">
+                              <rect x="12075" y="891" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M12084 1502 L12084 900" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-88745cac-9a51-4d51-8570-deabccd49ebd" class="note">
+                        <g id="bbox-e-88745cac-9a51-4d51-8570-deabccd49ebd" class="note bounding-box">
+                           <rect x="12741" y="1165" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(12741, 1260) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="x1gohkxp" class="stem">
+                           <g id="bbox-x1gohkxp" class="stem bounding-box">
+                              <rect x="12741" y="1281" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M12750 1290 L12750 1890" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="p1izwx3m" class="staff" data-n="2">
+                  <g id="bbox-p1izwx3m" class="staff bounding-box" data-n="2">
+                     <rect x="9861" y="3994" height="733" width="3780" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M9868 4000 L13635 4000" stroke-width="13" />
+                  <path d="M9868 4180 L13635 4180" stroke-width="13" />
+                  <path d="M9868 4360 L13635 4360" stroke-width="13" />
+                  <path d="M9868 4540 L13635 4540" stroke-width="13" />
+                  <path d="M9868 4720 L13635 4720" stroke-width="13" />
+                  <g id="q1qq46t" class="layer">
+                     <g id="bbox-q1qq46t" class="layer bounding-box" />
+                     <g id="e-a2f1890a-bada-4979-be84-48ac4c164d2b" class="note">
+                        <g id="bbox-e-a2f1890a-bada-4979-be84-48ac4c164d2b" class="note bounding-box">
+                           <rect x="10098" y="4265" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(10098, 4360) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="y1fcc7po" class="stem">
+                           <g id="bbox-y1fcc7po" class="stem bounding-box">
+                              <rect x="10098" y="4381" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M10107 4390 L10107 4960" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-13dd4121-b4d1-4219-bf4a-7e3d0cae24bd" class="note">
+                        <g id="bbox-e-13dd4121-b4d1-4219-bf4a-7e3d0cae24bd" class="note bounding-box">
+                           <rect x="10979" y="4085" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(10979, 4180) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="z1ikytvd" class="stem">
+                           <g id="bbox-z1ikytvd" class="stem bounding-box">
+                              <rect x="10979" y="4201" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M10988 4210 L10988 4810" stroke-width="18" />
+                        </g>
+                        <g id="tdmamby" class="accid">
+                           <g id="bbox-tdmamby" class="accid bounding-box">
+                              <rect x="10979" y="4180" height="0" width="0" fill="transparent" stroke-width="0" />
+                           </g>
+                        </g>
+                     </g>
+                     <g id="e-32b6d20d-d064-4959-9dce-285ab84ea7d3" class="note">
+                        <g id="bbox-e-32b6d20d-d064-4959-9dce-285ab84ea7d3" class="note bounding-box">
+                           <rect x="11860" y="3905" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(11860, 4000) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="a1w7uhu0" class="stem">
+                           <g id="bbox-a1w7uhu0" class="stem bounding-box">
+                              <rect x="11860" y="4021" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M11869 4030 L11869 4630" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-ce63d665-b66d-46e4-abaf-ff3036076ee1" class="note">
+                        <g id="bbox-e-ce63d665-b66d-46e4-abaf-ff3036076ee1" class="note bounding-box">
+                           <rect x="12741" y="4265" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(12741, 4360) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="b89y6q" class="stem">
+                           <g id="bbox-b89y6q" class="stem bounding-box">
+                              <rect x="12741" y="4381" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M12750 4390 L12750 4960" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="hw37hy0" class="barLine">
+                  <g id="bbox-hw37hy0" class="barLine bounding-box">
+                     <rect x="13608" y="1067" height="3667" width="27" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M13622 1080 L13622 1800" stroke-width="27" />
+                  <path d="M13622 4000 L13622 4720" stroke-width="27" />
+                  <path d="M13622 1800 L13622 4000" stroke-width="27" />
+               </g>
+            </g>
+            <g id="e-9628e276-7733-4ac4-984c-ae4a7fbcf5d5" class="measure">
+               <g id="bbox-e-9628e276-7733-4ac4-984c-ae4a7fbcf5d5" class="measure bounding-box" />
+               <g id="fi4qvwu" class="staff" data-n="1">
+                  <g id="bbox-fi4qvwu" class="staff bounding-box" data-n="1">
+                     <rect x="13628" y="1074" height="733" width="3780" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M13635 1080 L17402 1080" stroke-width="13" />
+                  <path d="M13635 1260 L17402 1260" stroke-width="13" />
+                  <path d="M13635 1440 L17402 1440" stroke-width="13" />
+                  <path d="M13635 1620 L17402 1620" stroke-width="13" />
+                  <path d="M13635 1800 L17402 1800" stroke-width="13" />
+                  <g id="g12mz57t" class="layer">
+                     <g id="bbox-g12mz57t" class="layer bounding-box" />
+                     <g id="e-5ca9a3a7-358e-415e-94c2-5d21c5ee36eb" class="note">
+                        <g id="bbox-e-5ca9a3a7-358e-415e-94c2-5d21c5ee36eb" class="note bounding-box">
+                           <rect x="13865" y="1345" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(13865, 1440) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="cou7mp0" class="stem">
+                           <g id="bbox-cou7mp0" class="stem bounding-box">
+                              <rect x="13865" y="1461" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M13874 1470 L13874 2040" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-597c2b88-9baf-4b28-87b2-00440382430f" class="note">
+                        <g id="bbox-e-597c2b88-9baf-4b28-87b2-00440382430f" class="note bounding-box">
+                           <rect x="14746" y="1435" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(14746, 1530) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="dzg0arx" class="stem">
+                           <g id="bbox-dzg0arx" class="stem bounding-box">
+                              <rect x="14961" y="891" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M14970 1502 L14970 900" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-ac891b39-f321-43bb-bc5e-e0598c9cedf6" class="note">
+                        <g id="bbox-e-ac891b39-f321-43bb-bc5e-e0598c9cedf6" class="note bounding-box">
+                           <rect x="15627" y="1615" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(15627, 1710) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="e164z136" class="stem">
+                           <g id="bbox-e164z136" class="stem bounding-box">
+                              <rect x="15842" y="1071" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M15851 1682 L15851 1080" stroke-width="18" />
+                        </g>
+                        <g id="k1i9m10" class="accid">
+                           <g id="bbox-k1i9m10" class="accid bounding-box">
+                              <rect x="15627" y="1710" height="0" width="0" fill="transparent" stroke-width="0" />
+                           </g>
+                        </g>
+                     </g>
+                     <g id="e-c20c5156-620a-484c-a838-235d127368ee" class="note">
+                        <g id="bbox-e-c20c5156-620a-484c-a838-235d127368ee" class="note bounding-box">
+                           <rect x="16508" y="1795" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(16508, 1890) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="f44ho15" class="stem">
+                           <g id="bbox-f44ho15" class="stem bounding-box">
+                              <rect x="16723" y="1251" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M16732 1862 L16732 1260" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="m1spdp1n" class="staff" data-n="2">
+                  <g id="bbox-m1spdp1n" class="staff bounding-box" data-n="2">
+                     <rect x="13628" y="3994" height="733" width="3780" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M13635 4000 L17402 4000" stroke-width="13" />
+                  <path d="M13635 4180 L17402 4180" stroke-width="13" />
+                  <path d="M13635 4360 L17402 4360" stroke-width="13" />
+                  <path d="M13635 4540 L17402 4540" stroke-width="13" />
+                  <path d="M13635 4720 L17402 4720" stroke-width="13" />
+                  <g id="n1ttk61w" class="layer">
+                     <g id="bbox-n1ttk61w" class="layer bounding-box" />
+                     <g id="e-d99481fd-ad7a-4aaa-b399-65f271744147" class="note">
+                        <g id="bbox-e-d99481fd-ad7a-4aaa-b399-65f271744147" class="note bounding-box">
+                           <rect x="13865" y="3995" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(13865, 4090) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="gcirqrn" class="stem">
+                           <g id="bbox-gcirqrn" class="stem bounding-box">
+                              <rect x="13865" y="4111" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M13874 4120 L13874 4720" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-da3aa3d4-0ee3-4f78-9757-ac5944998f3b" class="note">
+                        <g id="bbox-e-da3aa3d4-0ee3-4f78-9757-ac5944998f3b" class="note bounding-box">
+                           <rect x="14746" y="4175" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(14746, 4270) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="h1vz7q96" class="stem">
+                           <g id="bbox-h1vz7q96" class="stem bounding-box">
+                              <rect x="14746" y="4291" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M14755 4300 L14755 4900" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-a26de5b1-5716-49df-a9dc-006d85d51a75" class="note">
+                        <g id="bbox-e-a26de5b1-5716-49df-a9dc-006d85d51a75" class="note bounding-box">
+                           <rect x="15627" y="3905" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(15627, 4000) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="i14ozjcn" class="stem">
+                           <g id="bbox-i14ozjcn" class="stem bounding-box">
+                              <rect x="15627" y="4021" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M15636 4030 L15636 4630" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-8d35461a-54bc-4ff8-a490-258693304274" class="note">
+                        <g id="bbox-e-8d35461a-54bc-4ff8-a490-258693304274" class="note bounding-box">
+                           <rect x="16508" y="4265" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-aq925c5" transform="translate(16508, 4360) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="j1g40y04" class="stem">
+                           <g id="bbox-j1g40y04" class="stem bounding-box">
+                              <rect x="16508" y="4381" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M16517 4390 L16517 4960" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="e1s72bwp" class="barLine">
+                  <g id="bbox-e1s72bwp" class="barLine bounding-box">
+                     <rect x="17375" y="1067" height="3667" width="27" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M17389 1080 L17389 1800" stroke-width="27" />
+                  <path d="M17389 4000 L17389 4720" stroke-width="27" />
+                  <path d="M17389 1800 L17389 4000" stroke-width="27" />
+               </g>
+            </g>
+         </g></g><g data-frame="e-0199824f-cc64-4129-8acc-549880e70c48" class="editorFrame" id="e-0199824f-cc64-4129-8acc-549880e70c48" /><g class="editorPositionedSystem" transform="translate(0,4788)"><g id="d14a5qge" class="system">
+            <g id="bbox-d14a5qge" class="system bounding-box">
+               <rect x="-1" y="5567" height="2547" width="27" fill="transparent" stroke-width="0" />
+            </g>
+            <path d="M13 5580 L13 8100" stroke-width="27" />
+            <g id="w15mm9up" class="grpSym">
+               <g id="bbox-w15mm9up" class="grpSym bounding-box">
+                  <rect x="-252" y="5598" height="2484" width="180" fill="transparent" stroke-width="0" />
+               </g>
+               <path d="M-72,8082 C-432,7542 18,7020 -252,6840 C81,7020 -369,7542 -72,8082" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+               <path d="M-72,5598 C-369,6138 81,6660 -252,6840 C18,6660 -432,6138 -72,5598" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+            </g>
+            <g id="pquigz3" class="sb" />
+            <g id="e-ab82e59c-d9c4-4e1b-b490-b96b4d4fd217" class="measure">
+               <g id="bbox-e-ab82e59c-d9c4-4e1b-b490-b96b4d4fd217" class="measure bounding-box" />
+               <g id="hifhjcd" class="mNum autogenerated">
+                  <g id="bbox-hifhjcd" class="mNum bounding-box autogenerated" />
+                  <text y="5337" text-anchor="middle" font-size="0px">
+                     <tspan id="i1rfjgjh" class="text">
+                        <g id="bbox-i1rfjgjh" class="text bounding-box">
+                           <rect x="-77" y="5120" height="283" width="155" fill="transparent" stroke-width="0" />
+                        </g>
+                        <tspan font-size="324px">5</tspan>
+                     </tspan>
+                  </text>
+               </g>
+               <g id="z9kagrq" class="staff" data-n="1">
+                  <g id="bbox-z9kagrq" class="staff bounding-box" data-n="1">
+                     <rect x="-7" y="5574" height="733" width="5302" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M0 5580 L5289 5580" stroke-width="13" />
+                  <path d="M0 5760 L5289 5760" stroke-width="13" />
+                  <path d="M0 5940 L5289 5940" stroke-width="13" />
+                  <path d="M0 6120 L5289 6120" stroke-width="13" />
+                  <path d="M0 6300 L5289 6300" stroke-width="13" />
+                  <g id="t1yy1p8d" class="clef">
+                     <g id="bbox-t1yy1p8d" class="clef bounding-box">
+                        <rect x="117" y="5319" height="1280" width="460" fill="transparent" stroke-width="0" />
+                     </g>
+                     <use xlink:href="#E050-xe7wrzy" transform="translate(117, 6120) scale(0.72, 0.72)" />
+                  </g>
+                  <g id="u1a2k5ww" class="keySig">
+                     <g id="bbox-u1a2k5ww" class="keySig bounding-box">
+                        <rect x="775" y="5339" height="750" width="387" fill="transparent" stroke-width="0" />
+                     </g>
+                     <g id="v1czl7cz" class="keyAccid">
+                        <use xlink:href="#E262-xe7wrzy" transform="translate(775, 5580) scale(0.72, 0.72)" />
+                     </g>
+                     <g id="wwzbpso" class="keyAccid">
+                        <use xlink:href="#E262-xe7wrzy" transform="translate(987, 5850) scale(0.72, 0.72)" />
+                     </g>
+                  </g>
+                  <g id="a1bun9zg" class="layer">
+                     <g id="bbox-a1bun9zg" class="layer bounding-box" />
+                     <g id="e-fc8693b6-ba67-4a70-9e5d-301c5b798420" class="note">
+                        <g id="bbox-e-fc8693b6-ba67-4a70-9e5d-301c5b798420" class="note bounding-box">
+                           <rect x="1499" y="6295" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(1499, 6390) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="heyc301" class="stem">
+                           <g id="bbox-heyc301" class="stem bounding-box">
+                              <rect x="1714" y="5751" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M1723 6362 L1723 5760" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-1a0b66de-0c3d-4780-8875-5d8263694fb8" class="note">
+                        <g id="bbox-e-1a0b66de-0c3d-4780-8875-5d8263694fb8" class="note bounding-box">
+                           <rect x="2443" y="6115" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(2443, 6210) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="i3mlhvi" class="stem">
+                           <g id="bbox-i3mlhvi" class="stem bounding-box">
+                              <rect x="2658" y="5571" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M2667 6182 L2667 5580" stroke-width="18" />
+                        </g>
+                        <g id="dtxndzu" class="accid">
+                           <g id="bbox-dtxndzu" class="accid bounding-box">
+                              <rect x="2443" y="6210" height="0" width="0" fill="transparent" stroke-width="0" />
+                           </g>
+                        </g>
+                     </g>
+                     <g id="e-0d5de384-e58b-4690-bc4a-2ce29d4de462" class="note">
+                        <g id="bbox-e-0d5de384-e58b-4690-bc4a-2ce29d4de462" class="note bounding-box">
+                           <rect x="3388" y="5935" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(3388, 6030) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="jp9jxoh" class="stem">
+                           <g id="bbox-jp9jxoh" class="stem bounding-box">
+                              <rect x="3603" y="5391" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M3612 6002 L3612 5400" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-5876ff1e-e848-4367-9a0a-c6f09e62168d" class="note">
+                        <g id="bbox-e-5876ff1e-e848-4367-9a0a-c6f09e62168d" class="note bounding-box">
+                           <rect x="4332" y="5665" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(4332, 5760) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="k1h8n2a9" class="stem">
+                           <g id="bbox-k1h8n2a9" class="stem bounding-box">
+                              <rect x="4332" y="5781" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M4341 5790 L4341 6390" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="gjidex5" class="staff" data-n="2">
+                  <g id="bbox-gjidex5" class="staff bounding-box" data-n="2">
+                     <rect x="-7" y="7374" height="733" width="5302" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M0 7380 L5289 7380" stroke-width="13" />
+                  <path d="M0 7560 L5289 7560" stroke-width="13" />
+                  <path d="M0 7740 L5289 7740" stroke-width="13" />
+                  <path d="M0 7920 L5289 7920" stroke-width="13" />
+                  <path d="M0 8100 L5289 8100" stroke-width="13" />
+                  <g id="x1xy5q4l" class="clef">
+                     <g id="bbox-x1xy5q4l" class="clef bounding-box">
+                        <rect x="117" y="7380" height="624" width="478" fill="transparent" stroke-width="0" />
+                     </g>
+                     <use xlink:href="#E062-xe7wrzy" transform="translate(117, 7560) scale(0.72, 0.72)" />
+                  </g>
+                  <g id="yhbgzo0" class="keySig">
+                     <g id="bbox-yhbgzo0" class="keySig bounding-box">
+                        <rect x="775" y="7319" height="750" width="387" fill="transparent" stroke-width="0" />
+                     </g>
+                     <g id="z17u9wib" class="keyAccid">
+                        <use xlink:href="#E262-xe7wrzy" transform="translate(775, 7560) scale(0.72, 0.72)" />
+                     </g>
+                     <g id="a1gy0evp" class="keyAccid">
+                        <use xlink:href="#E262-xe7wrzy" transform="translate(987, 7830) scale(0.72, 0.72)" />
+                     </g>
+                  </g>
+                  <g id="hz2xpjz" class="layer">
+                     <g id="bbox-hz2xpjz" class="layer bounding-box" />
+                     <g id="e-06adfed3-9515-434f-9a10-88e8dbdec473" class="note">
+                        <g id="bbox-e-06adfed3-9515-434f-9a10-88e8dbdec473" class="note bounding-box">
+                           <rect x="1499" y="7645" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(1499, 7740) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="l88mpt" class="stem">
+                           <g id="bbox-l88mpt" class="stem bounding-box">
+                              <rect x="1499" y="7761" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M1508 7770 L1508 8340" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-84b637b3-f014-4d15-8e64-832ccd25556d" class="note">
+                        <g id="bbox-e-84b637b3-f014-4d15-8e64-832ccd25556d" class="note bounding-box">
+                           <rect x="2443" y="7465" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(2443, 7560) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="m19ys0xr" class="stem">
+                           <g id="bbox-m19ys0xr" class="stem bounding-box">
+                              <rect x="2443" y="7581" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M2452 7590 L2452 8190" stroke-width="18" />
+                        </g>
+                        <g id="k1ww01oy" class="accid">
+                           <g id="bbox-k1ww01oy" class="accid bounding-box">
+                              <rect x="2443" y="7560" height="0" width="0" fill="transparent" stroke-width="0" />
+                           </g>
+                        </g>
+                     </g>
+                     <g id="e-e8844982-64d5-417e-bd95-ffe8211eddb7" class="note">
+                        <g id="bbox-e-e8844982-64d5-417e-bd95-ffe8211eddb7" class="note bounding-box">
+                           <rect x="3388" y="7285" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(3388, 7380) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="nnls66d" class="stem">
+                           <g id="bbox-nnls66d" class="stem bounding-box">
+                              <rect x="3388" y="7401" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M3397 7410 L3397 8010" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-0fd87662-904a-4e5f-af94-1e15b34c2d6c" class="note">
+                        <g id="bbox-e-0fd87662-904a-4e5f-af94-1e15b34c2d6c" class="note bounding-box">
+                           <rect x="4332" y="7645" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(4332, 7740) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="oaj0xmh" class="stem">
+                           <g id="bbox-oaj0xmh" class="stem bounding-box">
+                              <rect x="4332" y="7761" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M4341 7770 L4341 8340" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="ye0mj2j" class="barLine">
+                  <g id="bbox-ye0mj2j" class="barLine bounding-box">
+                     <rect x="5262" y="5567" height="2547" width="27" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M5276 5580 L5276 6300" stroke-width="27" />
+                  <path d="M5276 7380 L5276 8100" stroke-width="27" />
+                  <path d="M5276 6300 L5276 7380" stroke-width="27" />
+               </g>
+            </g>
+            <g id="e-a8fccb57-5c16-4aba-af40-0e27bfaf775b" class="measure">
+               <g id="bbox-e-a8fccb57-5c16-4aba-af40-0e27bfaf775b" class="measure bounding-box" />
+               <g id="w1qen9x6" class="staff" data-n="1">
+                  <g id="bbox-w1qen9x6" class="staff bounding-box" data-n="1">
+                     <rect x="5282" y="5574" height="733" width="4050" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M5289 5580 L9326 5580" stroke-width="13" />
+                  <path d="M5289 5760 L9326 5760" stroke-width="13" />
+                  <path d="M5289 5940 L9326 5940" stroke-width="13" />
+                  <path d="M5289 6120 L9326 6120" stroke-width="13" />
+                  <path d="M5289 6300 L9326 6300" stroke-width="13" />
+                  <g id="x1i672er" class="layer">
+                     <g id="bbox-x1i672er" class="layer bounding-box" />
+                     <g id="e-2329987b-7b2a-47ea-84de-bc75f2e82419" class="note">
+                        <g id="bbox-e-2329987b-7b2a-47ea-84de-bc75f2e82419" class="note bounding-box">
+                           <rect x="5536" y="5845" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(5536, 5940) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="p1x64wmr" class="stem">
+                           <g id="bbox-p1x64wmr" class="stem bounding-box">
+                              <rect x="5536" y="5961" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M5545 5970 L5545 6540" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-92116c09-d0b9-43f4-9646-19e45cd8502b" class="note">
+                        <g id="bbox-e-92116c09-d0b9-43f4-9646-19e45cd8502b" class="note bounding-box">
+                           <rect x="6480" y="5935" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(6480, 6030) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="q17vp0dn" class="stem">
+                           <g id="bbox-q17vp0dn" class="stem bounding-box">
+                              <rect x="6695" y="5391" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M6704 6002 L6704 5400" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-57de0cc3-ef88-48a4-9e86-2c91144c293d" class="note">
+                        <g id="bbox-e-57de0cc3-ef88-48a4-9e86-2c91144c293d" class="note bounding-box">
+                           <rect x="7425" y="6115" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(7425, 6210) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="rean0b7" class="stem">
+                           <g id="bbox-rean0b7" class="stem bounding-box">
+                              <rect x="7640" y="5571" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M7649 6182 L7649 5580" stroke-width="18" />
+                        </g>
+                        <g id="b1ojght0" class="accid">
+                           <g id="bbox-b1ojght0" class="accid bounding-box">
+                              <rect x="7425" y="6210" height="0" width="0" fill="transparent" stroke-width="0" />
+                           </g>
+                        </g>
+                     </g>
+                     <g id="e-af614705-53d2-425a-93ec-b6382faab40c" class="note">
+                        <g id="bbox-e-af614705-53d2-425a-93ec-b6382faab40c" class="note bounding-box">
+                           <rect x="8369" y="6295" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(8369, 6390) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="s1ah8zi2" class="stem">
+                           <g id="bbox-s1ah8zi2" class="stem bounding-box">
+                              <rect x="8584" y="5751" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M8593 6362 L8593 5760" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="d1u7hio2" class="staff" data-n="2">
+                  <g id="bbox-d1u7hio2" class="staff bounding-box" data-n="2">
+                     <rect x="5282" y="7374" height="733" width="4050" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M5289 7380 L9326 7380" stroke-width="13" />
+                  <path d="M5289 7560 L9326 7560" stroke-width="13" />
+                  <path d="M5289 7740 L9326 7740" stroke-width="13" />
+                  <path d="M5289 7920 L9326 7920" stroke-width="13" />
+                  <path d="M5289 8100 L9326 8100" stroke-width="13" />
+                  <g id="e1y5ibto" class="layer">
+                     <g id="bbox-e1y5ibto" class="layer bounding-box" />
+                     <g id="e-e609cffa-c7d8-4f79-a6ef-d67fbc4b500a" class="note">
+                        <g id="bbox-e-e609cffa-c7d8-4f79-a6ef-d67fbc4b500a" class="note bounding-box">
+                           <rect x="5536" y="7375" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(5536, 7470) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="t17da790" class="stem">
+                           <g id="bbox-t17da790" class="stem bounding-box">
+                              <rect x="5536" y="7491" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M5545 7500 L5545 8100" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-2a03443b-eee0-4fd3-862f-cc448ac50fce" class="note">
+                        <g id="bbox-e-2a03443b-eee0-4fd3-862f-cc448ac50fce" class="note bounding-box">
+                           <rect x="6480" y="7555" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(6480, 7650) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="u1wx2jt9" class="stem">
+                           <g id="bbox-u1wx2jt9" class="stem bounding-box">
+                              <rect x="6480" y="7671" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M6489 7680 L6489 8280" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-396f5e01-782f-4bff-a5a7-0111ec109f8d" class="note">
+                        <g id="bbox-e-396f5e01-782f-4bff-a5a7-0111ec109f8d" class="note bounding-box">
+                           <rect x="7425" y="7285" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(7425, 7380) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="v6frnid" class="stem">
+                           <g id="bbox-v6frnid" class="stem bounding-box">
+                              <rect x="7425" y="7401" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M7434 7410 L7434 8010" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-ec0bc148-028f-461c-b804-1b164b3b4aaa" class="note">
+                        <g id="bbox-e-ec0bc148-028f-461c-b804-1b164b3b4aaa" class="note bounding-box">
+                           <rect x="8369" y="7645" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(8369, 7740) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="wqwmxrh" class="stem">
+                           <g id="bbox-wqwmxrh" class="stem bounding-box">
+                              <rect x="8369" y="7761" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M8378 7770 L8378 8340" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="v166fjaq" class="barLine">
+                  <g id="bbox-v166fjaq" class="barLine bounding-box">
+                     <rect x="9299" y="5567" height="2547" width="27" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M9313 5580 L9313 6300" stroke-width="27" />
+                  <path d="M9313 7380 L9313 8100" stroke-width="27" />
+                  <path d="M9313 6300 L9313 7380" stroke-width="27" />
+               </g>
+            </g>
+            <g id="e-4735abbe-54fd-43a7-80fd-d65b42790d61" class="measure">
+               <g id="bbox-e-4735abbe-54fd-43a7-80fd-d65b42790d61" class="measure bounding-box" />
+               <g id="s1pvoct" class="staff" data-n="1">
+                  <g id="bbox-s1pvoct" class="staff bounding-box" data-n="1">
+                     <rect x="9319" y="5574" height="733" width="4050" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M9326 5580 L13363 5580" stroke-width="13" />
+                  <path d="M9326 5760 L13363 5760" stroke-width="13" />
+                  <path d="M9326 5940 L13363 5940" stroke-width="13" />
+                  <path d="M9326 6120 L13363 6120" stroke-width="13" />
+                  <path d="M9326 6300 L13363 6300" stroke-width="13" />
+                  <g id="t13bm5cm" class="layer">
+                     <g id="bbox-t13bm5cm" class="layer bounding-box" />
+                     <g id="e-b76b5e59-0894-4052-9072-81ac1e59f6ff" class="note">
+                        <g id="bbox-e-b76b5e59-0894-4052-9072-81ac1e59f6ff" class="note bounding-box">
+                           <rect x="9573" y="6295" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(9573, 6390) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="xzyn9kg" class="stem">
+                           <g id="bbox-xzyn9kg" class="stem bounding-box">
+                              <rect x="9788" y="5751" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M9797 6362 L9797 5760" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-61640912-24fe-4db5-ad03-c54a6affd882" class="note">
+                        <g id="bbox-e-61640912-24fe-4db5-ad03-c54a6affd882" class="note bounding-box">
+                           <rect x="10517" y="6115" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(10517, 6210) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="y7fwjbd" class="stem">
+                           <g id="bbox-y7fwjbd" class="stem bounding-box">
+                              <rect x="10732" y="5571" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M10741 6182 L10741 5580" stroke-width="18" />
+                        </g>
+                        <g id="w1eg5ur1" class="accid">
+                           <g id="bbox-w1eg5ur1" class="accid bounding-box">
+                              <rect x="10517" y="6210" height="0" width="0" fill="transparent" stroke-width="0" />
+                           </g>
+                        </g>
+                     </g>
+                     <g id="e-1972f5d4-57b5-4b0b-8b32-052d6f13d849" class="note">
+                        <g id="bbox-e-1972f5d4-57b5-4b0b-8b32-052d6f13d849" class="note bounding-box">
+                           <rect x="11462" y="5935" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(11462, 6030) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="zk14wgs" class="stem">
+                           <g id="bbox-zk14wgs" class="stem bounding-box">
+                              <rect x="11677" y="5391" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M11686 6002 L11686 5400" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-0fc127f4-d051-40ce-a93c-e53f217be1ec" class="note">
+                        <g id="bbox-e-0fc127f4-d051-40ce-a93c-e53f217be1ec" class="note bounding-box">
+                           <rect x="12406" y="5665" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(12406, 5760) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="a1lmh4qs" class="stem">
+                           <g id="bbox-a1lmh4qs" class="stem bounding-box">
+                              <rect x="12406" y="5781" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M12415 5790 L12415 6390" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="z1s41op" class="staff" data-n="2">
+                  <g id="bbox-z1s41op" class="staff bounding-box" data-n="2">
+                     <rect x="9319" y="7374" height="733" width="4050" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M9326 7380 L13363 7380" stroke-width="13" />
+                  <path d="M9326 7560 L13363 7560" stroke-width="13" />
+                  <path d="M9326 7740 L13363 7740" stroke-width="13" />
+                  <path d="M9326 7920 L13363 7920" stroke-width="13" />
+                  <path d="M9326 8100 L13363 8100" stroke-width="13" />
+                  <g id="ajtvb4y" class="layer">
+                     <g id="bbox-ajtvb4y" class="layer bounding-box" />
+                     <g id="e-15199fa5-00c0-433c-8f26-563bf3234bf7" class="note">
+                        <g id="bbox-e-15199fa5-00c0-433c-8f26-563bf3234bf7" class="note bounding-box">
+                           <rect x="9573" y="7645" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(9573, 7740) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="b1tszljq" class="stem">
+                           <g id="bbox-b1tszljq" class="stem bounding-box">
+                              <rect x="9573" y="7761" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M9582 7770 L9582 8340" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-fbf228d6-1ce3-40f9-b8a2-53db1b954866" class="note">
+                        <g id="bbox-e-fbf228d6-1ce3-40f9-b8a2-53db1b954866" class="note bounding-box">
+                           <rect x="10517" y="7465" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(10517, 7560) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="c1haxomn" class="stem">
+                           <g id="bbox-c1haxomn" class="stem bounding-box">
+                              <rect x="10517" y="7581" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M10526 7590 L10526 8190" stroke-width="18" />
+                        </g>
+                        <g id="dfvs4gk" class="accid">
+                           <g id="bbox-dfvs4gk" class="accid bounding-box">
+                              <rect x="10517" y="7560" height="0" width="0" fill="transparent" stroke-width="0" />
+                           </g>
+                        </g>
+                     </g>
+                     <g id="e-3bf7b674-9c54-40b3-9d3c-33172837602e" class="note">
+                        <g id="bbox-e-3bf7b674-9c54-40b3-9d3c-33172837602e" class="note bounding-box">
+                           <rect x="11462" y="7285" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(11462, 7380) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="d1udycry" class="stem">
+                           <g id="bbox-d1udycry" class="stem bounding-box">
+                              <rect x="11462" y="7401" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M11471 7410 L11471 8010" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-948ac51b-d567-4813-9f74-d1515476022e" class="note">
+                        <g id="bbox-e-948ac51b-d567-4813-9f74-d1515476022e" class="note bounding-box">
+                           <rect x="12406" y="7645" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(12406, 7740) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="e1y9rx61" class="stem">
+                           <g id="bbox-e1y9rx61" class="stem bounding-box">
+                              <rect x="12406" y="7761" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M12415 7770 L12415 8340" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="r1eu1mpp" class="barLine">
+                  <g id="bbox-r1eu1mpp" class="barLine bounding-box">
+                     <rect x="13336" y="5567" height="2547" width="27" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M13350 5580 L13350 6300" stroke-width="27" />
+                  <path d="M13350 7380 L13350 8100" stroke-width="27" />
+                  <path d="M13350 6300 L13350 7380" stroke-width="27" />
+               </g>
+            </g>
+            <g id="e-2813c4e8-a57e-4445-9291-25f9ae410364" class="measure">
+               <g id="bbox-e-2813c4e8-a57e-4445-9291-25f9ae410364" class="measure bounding-box" />
+               <g id="pvxo70o" class="staff" data-n="1">
+                  <g id="bbox-pvxo70o" class="staff bounding-box" data-n="1">
+                     <rect x="13356" y="5574" height="733" width="4050" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M13363 5580 L17400 5580" stroke-width="13" />
+                  <path d="M13363 5760 L17400 5760" stroke-width="13" />
+                  <path d="M13363 5940 L17400 5940" stroke-width="13" />
+                  <path d="M13363 6120 L17400 6120" stroke-width="13" />
+                  <path d="M13363 6300 L17400 6300" stroke-width="13" />
+                  <g id="q5ssm0g" class="layer">
+                     <g id="bbox-q5ssm0g" class="layer bounding-box" />
+                     <g id="e-834224a3-422f-4d94-a3f9-3df8857e299d" class="note">
+                        <g id="bbox-e-834224a3-422f-4d94-a3f9-3df8857e299d" class="note bounding-box">
+                           <rect x="13610" y="5845" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(13610, 5940) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="f1qsj89p" class="stem">
+                           <g id="bbox-f1qsj89p" class="stem bounding-box">
+                              <rect x="13610" y="5961" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M13619 5970 L13619 6540" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-8e1573af-9c60-4e0f-81ea-5e306afa3e7a" class="note">
+                        <g id="bbox-e-8e1573af-9c60-4e0f-81ea-5e306afa3e7a" class="note bounding-box">
+                           <rect x="14554" y="5935" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(14554, 6030) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="g1v1rbtu" class="stem">
+                           <g id="bbox-g1v1rbtu" class="stem bounding-box">
+                              <rect x="14769" y="5391" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M14778 6002 L14778 5400" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-78ce4b26-cbbc-4d2d-8385-dc5e5cee296a" class="note">
+                        <g id="bbox-e-78ce4b26-cbbc-4d2d-8385-dc5e5cee296a" class="note bounding-box">
+                           <rect x="15499" y="6115" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(15499, 6210) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="h1b6w5i0" class="stem">
+                           <g id="bbox-h1b6w5i0" class="stem bounding-box">
+                              <rect x="15714" y="5571" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M15723 6182 L15723 5580" stroke-width="18" />
+                        </g>
+                        <g id="u1khgyji" class="accid">
+                           <g id="bbox-u1khgyji" class="accid bounding-box">
+                              <rect x="15499" y="6210" height="0" width="0" fill="transparent" stroke-width="0" />
+                           </g>
+                        </g>
+                     </g>
+                     <g id="e-99e13e84-c47b-445c-aa6d-2b821c8579c0" class="note">
+                        <g id="bbox-e-99e13e84-c47b-445c-aa6d-2b821c8579c0" class="note bounding-box">
+                           <rect x="16443" y="6295" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(16443, 6390) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="i19x2zfh" class="stem">
+                           <g id="bbox-i19x2zfh" class="stem bounding-box">
+                              <rect x="16658" y="5751" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M16667 6362 L16667 5760" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="waysaw9" class="staff" data-n="2">
+                  <g id="bbox-waysaw9" class="staff bounding-box" data-n="2">
+                     <rect x="13356" y="7374" height="733" width="4050" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M13363 7380 L17400 7380" stroke-width="13" />
+                  <path d="M13363 7560 L17400 7560" stroke-width="13" />
+                  <path d="M13363 7740 L17400 7740" stroke-width="13" />
+                  <path d="M13363 7920 L17400 7920" stroke-width="13" />
+                  <path d="M13363 8100 L17400 8100" stroke-width="13" />
+                  <g id="x1crkrg5" class="layer">
+                     <g id="bbox-x1crkrg5" class="layer bounding-box" />
+                     <g id="e-e5016f37-681a-4b00-b52b-426bbc89297f" class="note">
+                        <g id="bbox-e-e5016f37-681a-4b00-b52b-426bbc89297f" class="note bounding-box">
+                           <rect x="13610" y="7375" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(13610, 7470) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="j1qprjzf" class="stem">
+                           <g id="bbox-j1qprjzf" class="stem bounding-box">
+                              <rect x="13610" y="7491" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M13619 7500 L13619 8100" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-a20a6f07-0090-4685-aa15-4c460290b6cc" class="note">
+                        <g id="bbox-e-a20a6f07-0090-4685-aa15-4c460290b6cc" class="note bounding-box">
+                           <rect x="14554" y="7555" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(14554, 7650) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="k3pg9xc" class="stem">
+                           <g id="bbox-k3pg9xc" class="stem bounding-box">
+                              <rect x="14554" y="7671" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M14563 7680 L14563 8280" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-19548ccd-ee16-480d-8ee2-a2c775aba69a" class="note">
+                        <g id="bbox-e-19548ccd-ee16-480d-8ee2-a2c775aba69a" class="note bounding-box">
+                           <rect x="15499" y="7285" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(15499, 7380) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="lye6kvl" class="stem">
+                           <g id="bbox-lye6kvl" class="stem bounding-box">
+                              <rect x="15499" y="7401" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M15508 7410 L15508 8010" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-7ccfb448-1c7a-4a0c-b87d-c87ba1358227" class="note">
+                        <g id="bbox-e-7ccfb448-1c7a-4a0c-b87d-c87ba1358227" class="note bounding-box">
+                           <rect x="16443" y="7645" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(16443, 7740) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="mjfq9tf" class="stem">
+                           <g id="bbox-mjfq9tf" class="stem bounding-box">
+                              <rect x="16443" y="7761" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M16452 7770 L16452 8340" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="orci647" class="barLine">
+                  <g id="bbox-orci647" class="barLine bounding-box">
+                     <rect x="17373" y="5567" height="2547" width="27" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M17387 5580 L17387 6300" stroke-width="27" />
+                  <path d="M17387 7380 L17387 8100" stroke-width="27" />
+                  <path d="M17387 6300 L17387 7380" stroke-width="27" />
+               </g>
+            </g>
+         </g></g><g class="editorPositionedSystem" transform="translate(0,4719)"><g id="g16q07uf" class="system">
+            <g id="bbox-g16q07uf" class="system bounding-box">
+               <rect x="-1" y="10067" height="2547" width="27" fill="transparent" stroke-width="0" />
+            </g>
+            <path d="M13 10080 L13 12600" stroke-width="27" />
+            <g id="i1ojflbi" class="grpSym">
+               <g id="bbox-i1ojflbi" class="grpSym bounding-box">
+                  <rect x="-252" y="10098" height="2484" width="180" fill="transparent" stroke-width="0" />
+               </g>
+               <path d="M-72,12582 C-432,12042 18,11520 -252,11340 C81,11520 -369,12042 -72,12582" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+               <path d="M-72,10098 C-369,10638 81,11160 -252,11340 C18,11160 -432,10638 -72,10098" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+            </g>
+            <g id="c1yu5jff" class="sb" />
+            <g id="e-33e27047-7c78-4401-a613-11ab91d287e1" class="measure">
+               <g id="bbox-e-33e27047-7c78-4401-a613-11ab91d287e1" class="measure bounding-box" />
+               <g id="pohqrxu" class="mNum autogenerated">
+                  <g id="bbox-pohqrxu" class="mNum bounding-box autogenerated" />
+                  <text y="9837" text-anchor="middle" font-size="0px">
+                     <tspan id="q8w6w51" class="text">
+                        <g id="bbox-q8w6w51" class="text bounding-box">
+                           <rect x="-76" y="9618" height="285" width="152" fill="transparent" stroke-width="0" />
+                        </g>
+                        <tspan font-size="324px">9</tspan>
+                     </tspan>
+                  </text>
+               </g>
+               <g id="m1gy0ljf" class="staff" data-n="1">
+                  <g id="bbox-m1gy0ljf" class="staff bounding-box" data-n="1">
+                     <rect x="-7" y="10074" height="733" width="5302" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M0 10080 L5289 10080" stroke-width="13" />
+                  <path d="M0 10260 L5289 10260" stroke-width="13" />
+                  <path d="M0 10440 L5289 10440" stroke-width="13" />
+                  <path d="M0 10620 L5289 10620" stroke-width="13" />
+                  <path d="M0 10800 L5289 10800" stroke-width="13" />
+                  <g id="f1gvjys6" class="clef">
+                     <g id="bbox-f1gvjys6" class="clef bounding-box">
+                        <rect x="117" y="9819" height="1280" width="460" fill="transparent" stroke-width="0" />
+                     </g>
+                     <use xlink:href="#E050-xe7wrzy" transform="translate(117, 10620) scale(0.72, 0.72)" />
+                  </g>
+                  <g id="g6w08x3" class="keySig">
+                     <g id="bbox-g6w08x3" class="keySig bounding-box">
+                        <rect x="775" y="9839" height="750" width="387" fill="transparent" stroke-width="0" />
+                     </g>
+                     <g id="hoss10l" class="keyAccid">
+                        <use xlink:href="#E262-xe7wrzy" transform="translate(775, 10080) scale(0.72, 0.72)" />
+                     </g>
+                     <g id="i1661zu0" class="keyAccid">
+                        <use xlink:href="#E262-xe7wrzy" transform="translate(987, 10350) scale(0.72, 0.72)" />
+                     </g>
+                  </g>
+                  <g id="nvvc6rj" class="layer">
+                     <g id="bbox-nvvc6rj" class="layer bounding-box" />
+                     <g id="e-19d6314f-d318-409a-be4a-65af3ac9b7b1" class="note">
+                        <g id="bbox-e-19d6314f-d318-409a-be4a-65af3ac9b7b1" class="note bounding-box">
+                           <rect x="1499" y="10795" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(1499, 10890) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="nreh8vn" class="stem">
+                           <g id="bbox-nreh8vn" class="stem bounding-box">
+                              <rect x="1714" y="10251" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M1723 10862 L1723 10260" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-c5401ee2-f157-46c1-8ff1-b64caaeccb30" class="note">
+                        <g id="bbox-e-c5401ee2-f157-46c1-8ff1-b64caaeccb30" class="note bounding-box">
+                           <rect x="2443" y="10615" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(2443, 10710) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="o1339q0j" class="stem">
+                           <g id="bbox-o1339q0j" class="stem bounding-box">
+                              <rect x="2658" y="10071" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M2667 10682 L2667 10080" stroke-width="18" />
+                        </g>
+                        <g id="q1ohl6mk" class="accid">
+                           <g id="bbox-q1ohl6mk" class="accid bounding-box">
+                              <rect x="2443" y="10710" height="0" width="0" fill="transparent" stroke-width="0" />
+                           </g>
+                        </g>
+                     </g>
+                     <g id="e-b7d829da-2ac8-43e9-b865-52f462a30b27" class="note">
+                        <g id="bbox-e-b7d829da-2ac8-43e9-b865-52f462a30b27" class="note bounding-box">
+                           <rect x="3388" y="10435" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(3388, 10530) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="p1tfi3pf" class="stem">
+                           <g id="bbox-p1tfi3pf" class="stem bounding-box">
+                              <rect x="3603" y="9891" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M3612 10502 L3612 9900" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-d24402d9-a39d-4fc4-ac86-1bcf25ec141e" class="note">
+                        <g id="bbox-e-d24402d9-a39d-4fc4-ac86-1bcf25ec141e" class="note bounding-box">
+                           <rect x="4332" y="10165" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(4332, 10260) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="q1oalv4q" class="stem">
+                           <g id="bbox-q1oalv4q" class="stem bounding-box">
+                              <rect x="4332" y="10281" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M4341 10290 L4341 10890" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="t1lm6io6" class="staff" data-n="2">
+                  <g id="bbox-t1lm6io6" class="staff bounding-box" data-n="2">
+                     <rect x="-7" y="11874" height="733" width="5302" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M0 11880 L5289 11880" stroke-width="13" />
+                  <path d="M0 12060 L5289 12060" stroke-width="13" />
+                  <path d="M0 12240 L5289 12240" stroke-width="13" />
+                  <path d="M0 12420 L5289 12420" stroke-width="13" />
+                  <path d="M0 12600 L5289 12600" stroke-width="13" />
+                  <g id="jsfpd5k" class="clef">
+                     <g id="bbox-jsfpd5k" class="clef bounding-box">
+                        <rect x="117" y="11880" height="624" width="478" fill="transparent" stroke-width="0" />
+                     </g>
+                     <use xlink:href="#E062-xe7wrzy" transform="translate(117, 12060) scale(0.72, 0.72)" />
+                  </g>
+                  <g id="knkpzy4" class="keySig">
+                     <g id="bbox-knkpzy4" class="keySig bounding-box">
+                        <rect x="775" y="11819" height="750" width="387" fill="transparent" stroke-width="0" />
+                     </g>
+                     <g id="l1cu35fo" class="keyAccid">
+                        <use xlink:href="#E262-xe7wrzy" transform="translate(775, 12060) scale(0.72, 0.72)" />
+                     </g>
+                     <g id="mmej50z" class="keyAccid">
+                        <use xlink:href="#E262-xe7wrzy" transform="translate(987, 12330) scale(0.72, 0.72)" />
+                     </g>
+                  </g>
+                  <g id="u1jfw3xz" class="layer">
+                     <g id="bbox-u1jfw3xz" class="layer bounding-box" />
+                     <g id="e-ba0386ba-a0fc-4462-b865-e7336577bbf8" class="note">
+                        <g id="bbox-e-ba0386ba-a0fc-4462-b865-e7336577bbf8" class="note bounding-box">
+                           <rect x="1499" y="12145" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(1499, 12240) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="ruzmsbq" class="stem">
+                           <g id="bbox-ruzmsbq" class="stem bounding-box">
+                              <rect x="1499" y="12261" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M1508 12270 L1508 12840" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-74e36163-eaa4-4af5-876f-fa239ab48b97" class="note">
+                        <g id="bbox-e-74e36163-eaa4-4af5-876f-fa239ab48b97" class="note bounding-box">
+                           <rect x="2443" y="11965" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(2443, 12060) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="s1pnm1vr" class="stem">
+                           <g id="bbox-s1pnm1vr" class="stem bounding-box">
+                              <rect x="2443" y="12081" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M2452 12090 L2452 12690" stroke-width="18" />
+                        </g>
+                        <g id="xcbgejx" class="accid">
+                           <g id="bbox-xcbgejx" class="accid bounding-box">
+                              <rect x="2443" y="12060" height="0" width="0" fill="transparent" stroke-width="0" />
+                           </g>
+                        </g>
+                     </g>
+                     <g id="e-f279502b-2fd6-49b5-b18a-ffb58da9af93" class="note">
+                        <g id="bbox-e-f279502b-2fd6-49b5-b18a-ffb58da9af93" class="note bounding-box">
+                           <rect x="3388" y="11785" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(3388, 11880) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="t3kybff" class="stem">
+                           <g id="bbox-t3kybff" class="stem bounding-box">
+                              <rect x="3388" y="11901" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M3397 11910 L3397 12510" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-7c32c1f7-7462-4a0e-b03f-e7289016a55e" class="note">
+                        <g id="bbox-e-7c32c1f7-7462-4a0e-b03f-e7289016a55e" class="note bounding-box">
+                           <rect x="4332" y="12145" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(4332, 12240) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="uqocpmr" class="stem">
+                           <g id="bbox-uqocpmr" class="stem bounding-box">
+                              <rect x="4332" y="12261" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M4341 12270 L4341 12840" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="lp0an8s" class="barLine">
+                  <g id="bbox-lp0an8s" class="barLine bounding-box">
+                     <rect x="5262" y="10067" height="2547" width="27" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M5276 10080 L5276 10800" stroke-width="27" />
+                  <path d="M5276 11880 L5276 12600" stroke-width="27" />
+                  <path d="M5276 10800 L5276 11880" stroke-width="27" />
+               </g>
+            </g>
+            <g id="e-b3884550-db02-4407-9942-009860523b2a" class="measure">
+               <g id="bbox-e-b3884550-db02-4407-9942-009860523b2a" class="measure bounding-box" />
+               <g id="jnci7u7" class="staff" data-n="1">
+                  <g id="bbox-jnci7u7" class="staff bounding-box" data-n="1">
+                     <rect x="5282" y="10074" height="733" width="4050" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M5289 10080 L9326 10080" stroke-width="13" />
+                  <path d="M5289 10260 L9326 10260" stroke-width="13" />
+                  <path d="M5289 10440 L9326 10440" stroke-width="13" />
+                  <path d="M5289 10620 L9326 10620" stroke-width="13" />
+                  <path d="M5289 10800 L9326 10800" stroke-width="13" />
+                  <g id="k1rkbci2" class="layer">
+                     <g id="bbox-k1rkbci2" class="layer bounding-box" />
+                     <g id="e-d3eff1a7-c2aa-4b4b-9574-1db2539fed49" class="note">
+                        <g id="bbox-e-d3eff1a7-c2aa-4b4b-9574-1db2539fed49" class="note bounding-box">
+                           <rect x="5536" y="10345" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(5536, 10440) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="v19ad8jw" class="stem">
+                           <g id="bbox-v19ad8jw" class="stem bounding-box">
+                              <rect x="5536" y="10461" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M5545 10470 L5545 11040" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-f3ab020d-2e05-4ab5-b825-e363c710cba8" class="note">
+                        <g id="bbox-e-f3ab020d-2e05-4ab5-b825-e363c710cba8" class="note bounding-box">
+                           <rect x="6480" y="10435" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(6480, 10530) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="w1ah6pbn" class="stem">
+                           <g id="bbox-w1ah6pbn" class="stem bounding-box">
+                              <rect x="6695" y="9891" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M6704 10502 L6704 9900" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-6f1d9b67-335b-4e03-b853-ffc65a7bfe74" class="note">
+                        <g id="bbox-e-6f1d9b67-335b-4e03-b853-ffc65a7bfe74" class="note bounding-box">
+                           <rect x="7425" y="10615" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(7425, 10710) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="xnsvg4y" class="stem">
+                           <g id="bbox-xnsvg4y" class="stem bounding-box">
+                              <rect x="7640" y="10071" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M7649 10682 L7649 10080" stroke-width="18" />
+                        </g>
+                        <g id="ou2qi0h" class="accid">
+                           <g id="bbox-ou2qi0h" class="accid bounding-box">
+                              <rect x="7425" y="10710" height="0" width="0" fill="transparent" stroke-width="0" />
+                           </g>
+                        </g>
+                     </g>
+                     <g id="e-d4d57308-4e2d-4c1c-a6f8-f28cdb7c3c7f" class="note">
+                        <g id="bbox-e-d4d57308-4e2d-4c1c-a6f8-f28cdb7c3c7f" class="note bounding-box">
+                           <rect x="8369" y="10795" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(8369, 10890) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="y1noitdh" class="stem">
+                           <g id="bbox-y1noitdh" class="stem bounding-box">
+                              <rect x="8584" y="10251" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M8593 10862 L8593 10260" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="q15sxi0i" class="staff" data-n="2">
+                  <g id="bbox-q15sxi0i" class="staff bounding-box" data-n="2">
+                     <rect x="5282" y="11874" height="733" width="4050" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M5289 11880 L9326 11880" stroke-width="13" />
+                  <path d="M5289 12060 L9326 12060" stroke-width="13" />
+                  <path d="M5289 12240 L9326 12240" stroke-width="13" />
+                  <path d="M5289 12420 L9326 12420" stroke-width="13" />
+                  <path d="M5289 12600 L9326 12600" stroke-width="13" />
+                  <g id="rgvgkp" class="layer">
+                     <g id="bbox-rgvgkp" class="layer bounding-box" />
+                     <g id="e-0da55ed4-0b7c-4821-a4b4-a4149322934a" class="note">
+                        <g id="bbox-e-0da55ed4-0b7c-4821-a4b4-a4149322934a" class="note bounding-box">
+                           <rect x="5536" y="11875" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(5536, 11970) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="zjonh98" class="stem">
+                           <g id="bbox-zjonh98" class="stem bounding-box">
+                              <rect x="5536" y="11991" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M5545 12000 L5545 12600" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-e69ec6da-7889-4091-91e4-35c5abd5026b" class="note">
+                        <g id="bbox-e-e69ec6da-7889-4091-91e4-35c5abd5026b" class="note bounding-box">
+                           <rect x="6480" y="12055" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(6480, 12150) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="ago4kfy" class="stem">
+                           <g id="bbox-ago4kfy" class="stem bounding-box">
+                              <rect x="6480" y="12171" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M6489 12180 L6489 12780" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-695098dd-c521-4a3e-a0c3-f571b61bfecf" class="note">
+                        <g id="bbox-e-695098dd-c521-4a3e-a0c3-f571b61bfecf" class="note bounding-box">
+                           <rect x="7425" y="11785" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(7425, 11880) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="b1dr8b29" class="stem">
+                           <g id="bbox-b1dr8b29" class="stem bounding-box">
+                              <rect x="7425" y="11901" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M7434 11910 L7434 12510" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-c85a8a06-2527-48f0-862e-0b1d7acb9641" class="note">
+                        <g id="bbox-e-c85a8a06-2527-48f0-862e-0b1d7acb9641" class="note bounding-box">
+                           <rect x="8369" y="12145" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(8369, 12240) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="c3mdc3h" class="stem">
+                           <g id="bbox-c3mdc3h" class="stem bounding-box">
+                              <rect x="8369" y="12261" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M8378 12270 L8378 12840" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="i1lpbdz9" class="barLine">
+                  <g id="bbox-i1lpbdz9" class="barLine bounding-box">
+                     <rect x="9299" y="10067" height="2547" width="27" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M9313 10080 L9313 10800" stroke-width="27" />
+                  <path d="M9313 11880 L9313 12600" stroke-width="27" />
+                  <path d="M9313 10800 L9313 11880" stroke-width="27" />
+               </g>
+            </g>
+            <g id="e-5792cd8f-3800-4b1e-bf97-e165f401c8b4" class="measure">
+               <g id="bbox-e-5792cd8f-3800-4b1e-bf97-e165f401c8b4" class="measure bounding-box" />
+               <g id="fd2claj" class="staff" data-n="1">
+                  <g id="bbox-fd2claj" class="staff bounding-box" data-n="1">
+                     <rect x="9319" y="10074" height="733" width="4050" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M9326 10080 L13363 10080" stroke-width="13" />
+                  <path d="M9326 10260 L13363 10260" stroke-width="13" />
+                  <path d="M9326 10440 L13363 10440" stroke-width="13" />
+                  <path d="M9326 10620 L13363 10620" stroke-width="13" />
+                  <path d="M9326 10800 L13363 10800" stroke-width="13" />
+                  <g id="g1l6ts3s" class="layer">
+                     <g id="bbox-g1l6ts3s" class="layer bounding-box" />
+                     <g id="e-43a0efce-7147-408f-952a-1c673d508dd4" class="note">
+                        <g id="bbox-e-43a0efce-7147-408f-952a-1c673d508dd4" class="note bounding-box">
+                           <rect x="9573" y="10795" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(9573, 10890) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="d1x1jnrq" class="stem">
+                           <g id="bbox-d1x1jnrq" class="stem bounding-box">
+                              <rect x="9788" y="10251" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M9797 10862 L9797 10260" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-1c9be8b3-8048-40f9-a22c-2ff38b390a72" class="note">
+                        <g id="bbox-e-1c9be8b3-8048-40f9-a22c-2ff38b390a72" class="note bounding-box">
+                           <rect x="10517" y="10615" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(10517, 10710) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="e16693hs" class="stem">
+                           <g id="bbox-e16693hs" class="stem bounding-box">
+                              <rect x="10732" y="10071" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M10741 10682 L10741 10080" stroke-width="18" />
+                        </g>
+                        <g id="j58jlng" class="accid">
+                           <g id="bbox-j58jlng" class="accid bounding-box">
+                              <rect x="10517" y="10710" height="0" width="0" fill="transparent" stroke-width="0" />
+                           </g>
+                        </g>
+                     </g>
+                     <g id="e-e67a1e4f-1f86-49ec-9451-c53880648fbe" class="note">
+                        <g id="bbox-e-e67a1e4f-1f86-49ec-9451-c53880648fbe" class="note bounding-box">
+                           <rect x="11462" y="10435" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(11462, 10530) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="f1h2z91d" class="stem">
+                           <g id="bbox-f1h2z91d" class="stem bounding-box">
+                              <rect x="11677" y="9891" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M11686 10502 L11686 9900" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-5c3440d9-2466-4583-83f4-9283ff83a5a2" class="note">
+                        <g id="bbox-e-5c3440d9-2466-4583-83f4-9283ff83a5a2" class="note bounding-box">
+                           <rect x="12406" y="10165" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(12406, 10260) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="g1ct79lx" class="stem">
+                           <g id="bbox-g1ct79lx" class="stem bounding-box">
+                              <rect x="12406" y="10281" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M12415 10290 L12415 10890" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="m135xt4w" class="staff" data-n="2">
+                  <g id="bbox-m135xt4w" class="staff bounding-box" data-n="2">
+                     <rect x="9319" y="11874" height="733" width="4050" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M9326 11880 L13363 11880" stroke-width="13" />
+                  <path d="M9326 12060 L13363 12060" stroke-width="13" />
+                  <path d="M9326 12240 L13363 12240" stroke-width="13" />
+                  <path d="M9326 12420 L13363 12420" stroke-width="13" />
+                  <path d="M9326 12600 L13363 12600" stroke-width="13" />
+                  <g id="n1u20y7n" class="layer">
+                     <g id="bbox-n1u20y7n" class="layer bounding-box" />
+                     <g id="e-04872ac1-f0e1-47fc-8672-ccdbf0ba83fe" class="note">
+                        <g id="bbox-e-04872ac1-f0e1-47fc-8672-ccdbf0ba83fe" class="note bounding-box">
+                           <rect x="9573" y="12145" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(9573, 12240) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="h1gxhh9f" class="stem">
+                           <g id="bbox-h1gxhh9f" class="stem bounding-box">
+                              <rect x="9573" y="12261" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M9582 12270 L9582 12840" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-d4f383c1-a852-48ef-b5d5-531a543ea74e" class="note">
+                        <g id="bbox-e-d4f383c1-a852-48ef-b5d5-531a543ea74e" class="note bounding-box">
+                           <rect x="10517" y="11965" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(10517, 12060) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="i1d630ai" class="stem">
+                           <g id="bbox-i1d630ai" class="stem bounding-box">
+                              <rect x="10517" y="12081" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M10526 12090 L10526 12690" stroke-width="18" />
+                        </g>
+                        <g id="q1iqqe6i" class="accid">
+                           <g id="bbox-q1iqqe6i" class="accid bounding-box">
+                              <rect x="10517" y="12060" height="0" width="0" fill="transparent" stroke-width="0" />
+                           </g>
+                        </g>
+                     </g>
+                     <g id="e-efdcd8ce-e211-4980-b22f-a8fc0deab788" class="note">
+                        <g id="bbox-e-efdcd8ce-e211-4980-b22f-a8fc0deab788" class="note bounding-box">
+                           <rect x="11462" y="11785" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(11462, 11880) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="jrjhcrv" class="stem">
+                           <g id="bbox-jrjhcrv" class="stem bounding-box">
+                              <rect x="11462" y="11901" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M11471 11910 L11471 12510" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-11ef2d2c-2bdd-4df7-8493-51d7e766d10d" class="note">
+                        <g id="bbox-e-11ef2d2c-2bdd-4df7-8493-51d7e766d10d" class="note bounding-box">
+                           <rect x="12406" y="12145" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(12406, 12240) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="k1czgta5" class="stem">
+                           <g id="bbox-k1czgta5" class="stem bounding-box">
+                              <rect x="12406" y="12261" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M12415 12270 L12415 12840" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="e6qpvxi" class="barLine">
+                  <g id="bbox-e6qpvxi" class="barLine bounding-box">
+                     <rect x="13336" y="10067" height="2547" width="27" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M13350 10080 L13350 10800" stroke-width="27" />
+                  <path d="M13350 11880 L13350 12600" stroke-width="27" />
+                  <path d="M13350 10800 L13350 11880" stroke-width="27" />
+               </g>
+            </g>
+            <g id="e-bf34996c-fc13-4c5b-8acb-5414115cf77a" class="measure">
+               <g id="bbox-e-bf34996c-fc13-4c5b-8acb-5414115cf77a" class="measure bounding-box" />
+               <g id="c1ffdqod" class="staff" data-n="1">
+                  <g id="bbox-c1ffdqod" class="staff bounding-box" data-n="1">
+                     <rect x="13356" y="10074" height="733" width="4050" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M13363 10080 L17400 10080" stroke-width="13" />
+                  <path d="M13363 10260 L17400 10260" stroke-width="13" />
+                  <path d="M13363 10440 L17400 10440" stroke-width="13" />
+                  <path d="M13363 10620 L17400 10620" stroke-width="13" />
+                  <path d="M13363 10800 L17400 10800" stroke-width="13" />
+                  <g id="dg60rtv" class="layer">
+                     <g id="bbox-dg60rtv" class="layer bounding-box" />
+                     <g id="e-b7227769-5b76-4758-b3cb-c8f7903b3e1a" class="note">
+                        <g id="bbox-e-b7227769-5b76-4758-b3cb-c8f7903b3e1a" class="note bounding-box">
+                           <rect x="13610" y="10345" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(13610, 10440) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="lwz3j0m" class="stem">
+                           <g id="bbox-lwz3j0m" class="stem bounding-box">
+                              <rect x="13610" y="10461" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M13619 10470 L13619 11040" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-ee8c6fbc-2d83-4670-a848-70d1e3f64252" class="note">
+                        <g id="bbox-e-ee8c6fbc-2d83-4670-a848-70d1e3f64252" class="note bounding-box">
+                           <rect x="14554" y="10435" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(14554, 10530) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="m1wzhq5l" class="stem">
+                           <g id="bbox-m1wzhq5l" class="stem bounding-box">
+                              <rect x="14769" y="9891" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M14778 10502 L14778 9900" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-1b1f68e0-8c6a-4110-ac7d-4232c9d3c244" class="note">
+                        <g id="bbox-e-1b1f68e0-8c6a-4110-ac7d-4232c9d3c244" class="note bounding-box">
+                           <rect x="15499" y="10615" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(15499, 10710) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="nvt1mq1" class="stem">
+                           <g id="bbox-nvt1mq1" class="stem bounding-box">
+                              <rect x="15714" y="10071" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M15723 10682 L15723 10080" stroke-width="18" />
+                        </g>
+                        <g id="hkft6cr" class="accid">
+                           <g id="bbox-hkft6cr" class="accid bounding-box">
+                              <rect x="15499" y="10710" height="0" width="0" fill="transparent" stroke-width="0" />
+                           </g>
+                        </g>
+                     </g>
+                     <g id="e-42db3eca-e3a3-4c35-aa7e-fdf0177004d5" class="note">
+                        <g id="bbox-e-42db3eca-e3a3-4c35-aa7e-fdf0177004d5" class="note bounding-box">
+                           <rect x="16443" y="10795" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(16443, 10890) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="o1w22o67" class="stem">
+                           <g id="bbox-o1w22o67" class="stem bounding-box">
+                              <rect x="16658" y="10251" height="620" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M16667 10862 L16667 10260" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="ja6pxpi" class="staff" data-n="2">
+                  <g id="bbox-ja6pxpi" class="staff bounding-box" data-n="2">
+                     <rect x="13356" y="11874" height="733" width="4050" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M13363 11880 L17400 11880" stroke-width="13" />
+                  <path d="M13363 12060 L17400 12060" stroke-width="13" />
+                  <path d="M13363 12240 L17400 12240" stroke-width="13" />
+                  <path d="M13363 12420 L17400 12420" stroke-width="13" />
+                  <path d="M13363 12600 L17400 12600" stroke-width="13" />
+                  <g id="k1ggkzf8" class="layer">
+                     <g id="bbox-k1ggkzf8" class="layer bounding-box" />
+                     <g id="e-c165feab-85ac-4a5e-bc27-41efc39a6ca4" class="note">
+                        <g id="bbox-e-c165feab-85ac-4a5e-bc27-41efc39a6ca4" class="note bounding-box">
+                           <rect x="13610" y="11875" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(13610, 11970) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="posptag" class="stem">
+                           <g id="bbox-posptag" class="stem bounding-box">
+                              <rect x="13610" y="11991" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M13619 12000 L13619 12600" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-fdc46e4b-cc8b-4b9d-af2d-5b70bec6f0a9" class="note">
+                        <g id="bbox-e-fdc46e4b-cc8b-4b9d-af2d-5b70bec6f0a9" class="note bounding-box">
+                           <rect x="14554" y="12055" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(14554, 12150) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="q1ayeyab" class="stem">
+                           <g id="bbox-q1ayeyab" class="stem bounding-box">
+                              <rect x="14554" y="12171" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M14563 12180 L14563 12780" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-93781fce-62c1-4c6b-a5fd-dc44e0391a57" class="note">
+                        <g id="bbox-e-93781fce-62c1-4c6b-a5fd-dc44e0391a57" class="note bounding-box">
+                           <rect x="15499" y="11785" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(15499, 11880) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="rxfkqw" class="stem">
+                           <g id="bbox-rxfkqw" class="stem bounding-box">
+                              <rect x="15499" y="11901" height="618" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M15508 11910 L15508 12510" stroke-width="18" />
+                        </g>
+                     </g>
+                     <g id="e-aa09ac66-eaa9-4373-80e1-5cb2c771699c" class="note">
+                        <g id="bbox-e-aa09ac66-eaa9-4373-80e1-5cb2c771699c" class="note bounding-box">
+                           <rect x="16443" y="12145" height="190" width="234" fill="transparent" stroke-width="0" />
+                        </g>
+                        <g class="notehead">
+                           <use xlink:href="#E0A4-xe7wrzy" transform="translate(16443, 12240) scale(0.72, 0.72)" />
+                        </g>
+                        <g id="s1ej1umb" class="stem">
+                           <g id="bbox-s1ej1umb" class="stem bounding-box">
+                              <rect x="16443" y="12261" height="588" width="18" fill="transparent" stroke-width="0" />
+                           </g>
+                           <path d="M16452 12270 L16452 12840" stroke-width="18" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="b194iigv" class="barLine">
+                  <g id="bbox-b194iigv" class="barLine bounding-box">
+                     <rect x="17373" y="10067" height="2547" width="27" fill="transparent" stroke-width="0" />
+                  </g>
+                  <path d="M17387 10080 L17387 10800" stroke-width="27" />
+                  <path d="M17387 11880 L17387 12600" stroke-width="27" />
+                  <path d="M17387 10800 L17387 11880" stroke-width="27" />
+               </g>
+            </g>
+            <g id="w1nbh7p" class="systemMilestoneEnd x1g291et" />
+         </g></g></g>
+   </svg>
+<style type="text/css">#editor-sheet-1 g.ending, #editor-sheet-1 g.fing, #editor-sheet-1 g.reh, #editor-sheet-1 g.tempo {font-weight:bold;}#editor-sheet-1 g.dir, #editor-sheet-1 g.dynam, #editor-sheet-1 g.mNum {font-style:italic;}#editor-sheet-1 g.label {font-weight:normal;}#editor-sheet-1 ellipse, #editor-sheet-1 path, #editor-sheet-1 polygon, #editor-sheet-1 polyline, #editor-sheet-1 rect {stroke:currentColor}#editor-sheet-1 g.cursor {fill:dodgerblue; color:dodgerblue;}#editor-sheet-1 g.cursor.chord {fill:limegreen; color:limegreen;}</style><style type="text/css">#editor-sheet-1 g.ending, #editor-sheet-1 g.fing, #editor-sheet-1 g.reh, #editor-sheet-1 g.tempo {font-weight:bold;}#editor-sheet-1 g.dir, #editor-sheet-1 g.dynam, #editor-sheet-1 g.mNum {font-style:italic;}#editor-sheet-1 g.label {font-weight:normal;}#editor-sheet-1 ellipse, #editor-sheet-1 path, #editor-sheet-1 polygon, #editor-sheet-1 polyline, #editor-sheet-1 rect {stroke:currentColor}#editor-sheet-1 g.cursor {fill:dodgerblue; color:dodgerblue;}#editor-sheet-1 g.cursor.chord {fill:limegreen; color:limegreen;}</style></svg>

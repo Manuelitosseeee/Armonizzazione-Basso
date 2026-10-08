@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="it">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="theme-color" content="#e3e3e3">
+ <title>Armonizza · Laboratorio del basso</title>
+ <link rel="stylesheet" href="app/style.css?v=20261007-cifrature-settime-1">
+<link rel="stylesheet" href="app/studio.css?v=20261007-cifrature-settime-1"><link rel="stylesheet" href="app/personalization.css?v=20261007-cifrature-settime-1"><link rel="stylesheet" href="app/reference-layout.css?v=20261007-cifrature-settime-1"></head>
+<body>
+ <div id="app">
+  <header class="appToolbar referenceHeader" id="referenceHeader"><div id="mobileControls" class="mobileControls"><strong class="mobileBrand">Armonizza</strong><button id="mobileEdit" type="button" aria-pressed="false">✎ Modifica</button><details id="mobileMeasures" class="toolDrawer" hidden><summary>Battute</summary><div id="mobileWritingOptions" class="drawerContent"></div></details><button id="mobileDelete" type="button" hidden aria-label="Elimina nota selezionata" title="Elimina nota selezionata">⌫</button><details id="mobileMenu" class="toolDrawer"><summary>Funzioni</summary><div id="mobileOptions" class="drawerContent" aria-label="Funzioni musicali"></div></details></div><details id="customizationMenu" class="toolDrawer"><summary>Personalizza</summary><div class="drawerContent customizationContent"><label>Interfaccia<select id="interfaceTheme"><option value="light">Chiara · colori della foto</option><option value="dark">Scura</option></select></label><label>Partitura<select id="scoreTheme"><option value="light">Chiara · note nere</option><option value="dark">Scura · note bianche</option></select></label><label>Colore della selezione<input id="accentColor" type="color" value="#205e78"></label><label>Sfondo intorno alla partitura<input id="canvasColor" type="color" value="#142433"></label><label>Testi dell’interfaccia<input id="interfaceTextColor" type="color" value="#393e43"></label><label>Forma di pulsanti e campi<select id="buttonShape"><option value="square">Squadrata</option><option value="soft" selected>Angoli morbidi</option><option value="round">Arrotondata</option></select></label><label>Spaziatura dei comandi<select id="controlDensity"><option value="compact">Compatta</option><option value="normal" selected>Normale</option><option value="comfortable">Comoda</option></select></label><label>Larghezza pannello laterale<select id="paletteWidth"><option value="compact">Compatta</option><option value="normal" selected>Normale</option><option value="wide">Ampia</option></select></label><label>Dimensione testi<input id="interfaceFontSize" type="number" min="12" max="20" value="14"></label><label>Dimensione partitura (%)<input id="scoreZoom" type="number" min="40" max="300" step="10" value="100"></label><label class="seventhToggle"><input id="panelShadows" type="checkbox" checked> Ombre dei pannelli</label><button id="resetAppearance" type="button" class="secondary">Ripristina i colori della foto</button></div></details><div class="referenceTitle">Armonizza basso</div><div class="fileTools"><details class="toolDrawer" id="importMenu"><summary>Importa</summary><div class="drawerContent"><div class="importBar"><button id="importScore" class="secondary" type="button">Importa basso · MuseScore / MusicXML</button><button id="pasteImage" hidden disabled class="secondary" type="button">Incolla immagine · Ctrl+V</button><input id="scoreFile" type="file" accept=".mscz,.mscx,.musicxml,.xml,.mxl" hidden></div>
+    </div></details><details class="toolDrawer" id="exportMenu"><summary>Esporta</summary><div class="drawerContent"><div class="exportMenuContent"><div id="exportOptions" class="exportOptions" hidden><strong id="exportTitle"></strong><label class="seventhToggle"><input id="exportDegrees" type="checkbox" checked> Includi gradi e rivolti sotto ogni accordo</label><label id="pdfDensityOptions">Dimensione dei righi · sistemi per pagina<select id="pdfSystemsPerPage"><option value="2">2 · molto grandi</option><option value="3">3 · grandi</option><option value="4" selected>4 · normali</option><option value="5">5 · compatti</option><option value="8">8 · piccoli</option><option value="12">12 · molto piccoli</option><option value="20">20 · miniatura</option></select><span class="small">Ogni sistema comprende i pentagrammi delle voci. Più sistemi = righi più piccoli.</span></label><p class="small">Due pentagrammi: chiave di violino e chiave di basso, secondo la disposizione delle parti selezionata.</p><button id="confirmExport" type="button">Esporta</button><button id="cancelExport" class="secondary" type="button">Annulla</button></div><div class="exportButtons"><button id="musicxml" class="secondary">MusicXML</button><button id="midi" class="secondary">MIDI</button><button id="pdf" class="secondary">Scarica PDF completo</button></div><p class="small">Il PDF include tutte le battute della partitura.</p><p class="small">Pianoforte: <a href="https://github.com/sfzinstruments/SalamanderGrandPiano" target="_blank" rel="noopener noreferrer">Salamander Grand Piano</a> di Alexander Holm (CC BY 3.0).</p></div>
+    </div></details></div></header><div class="operationsHome" id="operationsHome"><div class="operationsToolbar" id="operationsToolbar"><details class="toolDrawer" id="generateMenu"><summary>Genera basso</summary><div class="drawerContent"><div class="modeTabs" role="group" aria-label="Origine del basso"><button id="generateMode" class="active">Genera basso</button><button id="writeMode">Scrivi basso</button></div>
+    <label>Tonalità iniziale<select id="generateKey"></select></label><label>Metrica del basso<select id="generateMeter"></select></label><fieldset id="generatorControls"><legend>Genera basso</legend><label>Numero di battute<input id="generateBars" type="number" min="1" max="128" value="2"></label><button id="addGeneratedModulation" type="button" class="secondary">Aggiungi modulazione in genera basso</button><div id="generatedModulations"></div><div id="generatedModulationForm" hidden><label>Battuta<input id="generatedModulationBar" type="number" min="1" value="2"></label><label>Posizione nella battuta<input id="generatedModulationPosition" type="number" min="1" value="1"></label><label>Tonalità di arrivo<select id="generatedModulationKey"></select></label><button id="saveGeneratedModulation" type="button">Aggiungi al percorso</button><button id="cancelGeneratedModulation" type="button" class="secondary">Annulla</button></div></fieldset>
+    <div class="buttons"><button id="newBass">Genera un altro basso</button><button id="addNote" class="secondary">+ Nota</button></div>
+    <label id="destinationLabel">Arrivo del basso generato<select id="tonalDestination"></select></label>
+     <label class="seventhToggle" id="returnLabel"><input id="returnHome" type="checkbox"> Ritorna alla tonalità iniziale</label>
+     </div></details><details class="toolDrawer" id="harmonizeMenu"><summary>Armonizza</summary><div class="drawerContent"><button id="solve" class="primary wide">Armonizza il basso</button>
+    <label>Livello<select id="level"><option value="1">01 · Triadi fondamentali</option><option value="2">02 · Primi rivolti</option><option value="3">03 · Rivolti e settime</option></select></label>
+    <div id="levelInfo" class="note"></div>
+   <div class="resultBar"><div><strong id="resultCount">0 soluzioni</strong><span id="resultSub">Genera una linea e avvia l'armonizzazione</span></div><div id="alternatives"></div></div>
+    </div></details><details class="toolDrawer" id="modulationsPanel"><summary>Modulazioni</summary><div class="drawerContent"><button type="button" data-open-menu="featuresMenu" data-open-section="tonalListPanel">Elenco modulazioni e tonicizzazioni</button><label>Modulazioni<select id="modulationMode"><option value="off">Nessuna · tonalità fissa</option><option value="auto">Automatica · proposte da confermare</option><option value="manual">Percorso manuale</option></select></label>
+     <label>Massimo modulazioni automatiche<select id="maxModulations"><option value="1">1</option><option value="2">2</option><option value="4">4</option><option value="12" selected>Tutti i cambi riconosciuti (fino a 12)</option></select></label>
+     <p class="small">Le dominanti secondarie risolvono sul grado scelto. Una modulazione deve avere una conferma armonica.</p>
+    <section class="modulationWizard" aria-label="Modulazione manuale">
+     <button id="selectModulation" type="button">Seleziona modulazione</button>
+     <button id="detectChromaticModulations" type="button">Rileva alterazioni e proponi tonalità</button>
+     <section id="chromaticReview" hidden><p id="chromaticReviewSummary" role="status"></p><div id="chromaticReviewRows"></div><button id="closeChromaticReview" type="button" class="secondary">Chiudi proposte</button></section>
+     <div id="modulationPrompt" role="status"></div>
+     <div id="modulationChoice" hidden>
+      <label>Come scegliere la tonalità?<select id="modulationKeyMode"><option value="auto">Calcola da solo</option><option value="manual">La scelgo io</option></select></label>
+      <label id="wizardKeyLabel" hidden>Tonalità di arrivo<select id="wizardKey"></select></label>
+      <button id="calculateModulation" type="button">Calcola da solo</button>
+     </div>
+     <div id="modulationConfirmation" hidden><button id="confirmModulation" type="button">Conferma</button><button id="recalculateModulation" class="secondary" type="button">Ricalcola</button><button id="chooseModulationKey" class="secondary" type="button">La scelgo io</button></div>
+     <button id="cancelModulation" class="secondary" type="button" hidden>Annulla selezione</button>
+    </section>
+    </div></details><details class="toolDrawer" id="tonicizationsPanel"><summary>Tonicizzazioni</summary><div class="drawerContent"><button type="button" data-open-menu="featuresMenu" data-open-section="tonalListPanel">Elenco modulazioni e tonicizzazioni</button><label class="seventhToggle"><input id="secondaryEnabled" type="checkbox"> Consenti dominanti secondarie</label>
+     <fieldset id="secondaryFilters" hidden><legend>Gradi tonicizzabili</legend><div id="secondaryDegrees"></div></fieldset>
+     <details class="tonalManual"><summary>Tonicizzazioni</summary>
+     <div class="tonalForm">
+      <label>Evento<select id="tonalKind"><option value="tonicization">Tonicizzazione · dominante secondaria</option><option value="extendedTonicization">Tonicizzazione estesa · più accordi</option><option value="modulation">Modulazione a un tono vicino</option></select></label>
+      <label>Nota di inizio<input id="tonalIndex" type="number" min="1" value="1"></label>
+      <label>Grado da tonicizzare<select id="tonalDegree"><option value="1">II</option><option value="2">III</option><option value="3">IV</option><option value="4">V</option><option value="5">VI</option></select></label>
+      <label>Accordo iniziale / dominante secondaria<select id="tonalFigure"><option value="">Scelta automatica</option><option>V</option><option>V6</option><option>V7</option><option>V65</option><option>V43</option><option>V42</option></select></label>
+      <label>Tonalità di arrivo<select id="manualDestination"></select></label>
+      <label>Nota di conferma<input id="tonalConfirm" type="number" min="2" value="2"></label>
+     </div>
+     <button id="useSelectedTonal" class="secondary" type="button">Usa la nota selezionata</button>
+     <button id="addTonalEvent" type="button">Aggiungi evento e armonizza</button>
+     </details>
+    </div></details><details class="toolDrawer" id="chordMenu"><summary>Accordi</summary><div class="drawerContent"><button id="selectCadence" type="button">Inserisci cadenza</button>
+     <button id="automaticSevenths" type="button">Aggiungi settime dove possibile</button><section id="automaticSeventhsOptions" hidden><strong>Aggiungi settime dove possibile</strong><p class="small">Scegli i gradi. Il basso e i gradi esistenti restano invariati. Le aggiunte richiedono preparazione, risoluzione e collegamenti validi.</p><div id="automaticSeventhDegrees"></div><button id="scanSevenths" type="button">Scansiona tutto il basso</button><button id="cancelAutomaticSevenths" type="button" class="secondary">Chiudi</button></section><button id="addSeventh" type="button" class="secondary">Aggiungi settima sulla selezione</button>
+    <button id="clearHarmonyRequests" type="button" class="secondary" hidden>Libera cifrature imposte</button>
+     <details class="toolDrawer" id="seventhsPanel"><summary>Settime</summary><div class="drawerContent"><label class="seventhToggle"><input id="seventhEnabled" type="checkbox"> Usa accordi di settima</label>
+    <fieldset id="seventhFilters"><legend>Settime consentite</legend><div id="seventhDegrees"></div></fieldset>
+    </div></details></div></details><details class="toolDrawer" id="featuresMenu"><summary>Strumenti</summary><div class="drawerContent"><details id="tonalListPanel" class="toolDrawer"><summary>Elenco modulazioni e tonicizzazioni</summary><div class="drawerContent"><div id="tonalEvents" class="tonalEventList"></div>
+    </div></details><details class="toolDrawer" id="selectionPanel"><summary>Selezione e accordo</summary><div class="drawerContent"><div class="panel"><div class="panelHead"><h3>Nota selezionata</h3><span id="selectionLabel">—</span></div><div id="noteEditor" class="editorEmpty">Seleziona una nota dalla partitura.</div></div>
+     <div class="panel"><div class="panelHead"><h3>Perché questo accordo</h3><span id="chordLabel">—</span></div><div id="explain">Seleziona un accordo per vedere le regole e i riferimenti.</div></div>
+    </div></details><details class="toolDrawer" id="correctionPanel"><summary>Correzione esercizio</summary><div class="drawerContent"><div class="panel"><div class="panelHead"><h3>Correzione esercizio</h3><button id="verify" class="secondary">Verifica le voci</button></div><p>Modifica le note delle voci superiori, poi verifica la tua armonizzazione.</p><div id="feedback"></div></div>
+     </div></details><details class="toolDrawer"><summary>Note del basso</summary><div class="drawerContent"><div id="bassEditor" class="bassEditor"></div>
+    <button id="clearAll" class="secondary clearAll">Cancella tutto</button>
+    </div></details><details class="toolDrawer catalog"><summary>Regole e fonti</summary><div id="rules"></div></details>
+   <div id="tonalReading" class="tonalReading" role="status"></div>
+    </div></details><div class="referenceTransport"><div class="transport"><button id="play" title="Riproduci">▶ Ascolta</button><button id="stop" class="secondary" title="Ferma">■</button><button id="loop" class="secondary">Loop: no</button></div>
+    <label class="tempoControl">Tempo <span id="bpmText">84 BPM</span><input id="bpm" type="range" min="48" max="160" value="84"></label><button id="fullscreenScore" type="button" class="secondary expandScore" aria-label="Schermo intero" title="Schermo intero"><svg viewbox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M9 3H3v6m12-6h6v6M3 15v6h6m12-6v6h-6" fill="none" stroke="currentColor" stroke-width="2"></path></svg></button></div></div></div><div id="notationToolbarHome" class="notationToolbarHome"><div class="manualBar notationToolbar" id="notationToolbar">
+     <div class="manualHead"><button id="manualMode" class="secondary">Modalità manuale: no</button>
+     </div><div class="notationLine"><div class="toolRow"><span>Note</span><div id="noteTools" class="toolGroup"></div></div>
+     <details class="toolDrawer" id="restsMenu"><summary>Pause</summary><div class="drawerContent"><div class="toolRow"><span>Pause</span><div id="restTools" class="toolGroup"></div></div>
+     </div></details><div class="toolRow"><span>Alterazioni</span><div id="accidentalTools" class="toolGroup"></div></div>
+    <div class="toolRow"><span>Ritmo</span><div class="toolGroup"><button id="dotTool" type="button" class="secondary">· Punto: no</button><button id="tieTool" type="button" class="secondary">⌢ Lega la nota selezionata</button></div></div>
+     </div><label id="valueShortcutSettings" class="numberShortcutToggle"><input id="numberShortcuts" type="checkbox" aria-label="Cambia valore con numeri"> 1–8 · Valori</label></div>
+    </div><main>
+   <aside class="controls writingSidebar"><details class="toolDrawer" id="sidebarTools" open=""><summary>Scrittura musicale</summary><div class="drawerContent"><details class="toolDrawer" id="bassSettings" open=""><summary>Armatura di chiave</summary><div class="drawerContent"><label><select id="key" aria-label="Tonalità"></select></label>
+    </div></details><details class="toolDrawer" id="meterSettings" open=""><summary>Indicazioni metriche</summary><div class="drawerContent"><label><select id="meter" aria-label="Metrica"><option value="4/4">4/4</option><option value="3/4">3/4</option><option value="2/4">2/4</option><option value="6/8">6/8</option><option value="3/2">3/2</option><option value="2/2">2/2</option><option value="8/4">8/4</option></select></label>
+    </div></details><details class="toolDrawer" id="voiceSettings"><summary>Disposizione delle voci</summary><div class="drawerContent"><label>Disposizione delle parti<select id="partSpacing"><option value="strette">Parti strette · basso e tenore in chiave di basso</option><option value="late">Parti late · solo basso in chiave di basso</option></select></label>
+    </div></details><details class="toolDrawer" id="measureSettings"><summary>Battute</summary><div class="drawerContent"><div class="scoreNav" aria-label="Navigazione battute"><button id="previousMeasures" class="secondary" aria-label="Battute precedenti">←</button><strong id="measureRange">Battute 1–4</strong><button id="nextMeasures" class="secondary" aria-label="Battute successive">→</button><button id="addMeasure" class="secondary">+ Battuta</button><span id="cursorReadout" aria-live="polite"></span></div><div class="measureDeleteTools"><label>Battuta da eliminare<input id="measureToDelete" type="number" min="1" step="1" value="1"></label><button id="removeMeasure" type="button" class="secondary">Elimina battuta</button></div>
+    </div></details><p class="writingHints">N · Scrittura
+1–8 · Valori
+Backspace · Elimina selezione</p></div></details></aside><section class="workspace">
+    <div class="workspaceHead documentTab"><h2 id="scoreTitle">Do maggiore <span>·</span> 4 voci</h2></div><div id="status" role="status"></div>
+    <section id="scoreView" class="scoreView" aria-label="Vista della partitura">
+    <div class="scoreTopBar"><div class="fullscreenTransport"><button id="fullscreenPlay" type="button">▶ Ascolta</button><label>Velocità <input id="fullscreenBpm" type="number" min="48" max="160" value="84"> BPM</label></div></div>
+    <div class="harmonyAction" id="harmonyAction" hidden>
+     <div id="harmonyPrompt" role="status"></div>
+     <label id="cadenceChoice">Tipo di cadenza<select id="cadenceType"><option value="auto">Proponi tu</option><option value="perfect">Autentica perfetta · V–I</option><option value="complete">Completa · II–V–I</option><option value="authentic">Autentica · V–I</option><option value="plagal">Plagale · IV–I</option><option value="deceptive">Inganno · V–VI</option><option value="half">Sospesa · II–V</option></select></label>
+     <button id="calculateCadence" type="button">Calcola cadenza sulla selezione</button>
+     <label id="proposalChoice" hidden>Proposte valide<select id="harmonyProposal"></select></label>
+     <pre id="harmonyChanges"></pre>
+     <button id="confirmHarmony" type="button" hidden>Conferma proposta</button>
+     <button id="cancelHarmony" type="button" class="secondary">Annulla</button>
+    </div>
+    <div class="scoreWrap" id="scoreWrap">
+     <div id="staff"></div>
+     <div class="scoreFoot"><span>♩ = <span id="bpmFoot">84</span> · <span id="meterFoot">4/4</span></span><span>Clicca il rigo del basso per inserire; clicca una nota per modificarla</span></div>
+    </div>
+    <div class="viewTools">
+     <label id="viewLayoutSettings">Vista<select id="scoreLayout"><option value="paged">Battute a pagine</option><option value="scroll">Scorrimento orizzontale continuo</option><option value="pages">Pagine intere · più sistemi</option></select></label>
+     <div class="workspaceZoom"><button id="zoomOut" type="button" aria-label="Riduci zoom">−</button><label>Zoom <input id="workspaceZoom" type="number" min="40" max="300" step="10" value="100"> %</label><button id="zoomIn" type="button" aria-label="Aumenta zoom">+</button></div><button id="figuresOnly" type="button" class="secondary">Cifratura: visibile</button>
+     </div>
+    </section>
+    <div id="printScore" aria-hidden="true"></div>
+    </section>
+  </main>
+ </div>
+ <section id="importPanel" class="importPanel" hidden role="dialog" aria-modal="true" aria-labelledby="importTitle">
+  <div class="importWindow">
+   <div class="panelHead"><h2 id="importTitle">Importa e controlla il basso</h2><button id="importClose" type="button" class="secondary" aria-label="Chiudi importazione">×</button></div>
+   <p id="importMessage" role="status">Apri un file MuseScore (.mscz, .mscx) oppure MusicXML (.musicxml, .xml, .mxl).</p>
+   <p class="small">Scegli il rigo del basso e controlla l’anteprima. Il file viene letto sul dispositivo, senza servizi di riconoscimento.</p>
+   <div id="omrConnection" hidden class="small"><label for="omrNetlifyUrl">Indirizzo del tuo sito Netlify</label><input id="omrNetlifyUrl" type="url" placeholder="https://il-tuo-sito.netlify.app"><button id="omrConnect" type="button">Collega riconoscimento</button><p>Il motore si avvia solo durante l’importazione. Il collegamento viene ricordato su questo dispositivo.</p></div><div class="importCompare"><div id="importOriginal" class="importOriginal"></div><div id="importScorePreview" class="importScorePreview" aria-label="Anteprima del basso"></div></div>
+   <div id="importReview" hidden>
+    <div class="importMetadata"><label>Rigo del basso<select id="importStaff"></select></label><label>Tonalità<select id="reviewKey"></select></label><label>Metrica<input id="reviewBeats" type="number" min="1" max="32" value="4"></label><label>Denominatore<select id="reviewDenominator"><option>1</option><option>2</option><option selected>4</option><option>8</option><option>16</option><option>32</option><option>64</option></select></label></div>
+    <p id="reviewValidation" role="status"></p>
+    <div class="reviewTable"><table><thead><tr><th>#</th><th>Battuta</th><th>Tempo</th><th>Tipo</th><th>Nota</th><th>Alterazione</th><th>Ottava</th><th>Durata</th><th>Punto</th><th>Legatura →</th><th></th></tr></thead><tbody id="reviewRows"></tbody></table></div>
+    <div class="buttons"><button id="reviewAdd" type="button" class="secondary">+ Nota</button><button id="reviewReflow" type="button" class="secondary" title="Riposiziona tutti gli eventi in sequenza, eliminando i vuoti">Riallinea durate dall’inizio</button></div>
+    <p class="small">Le modifiche restano nell’anteprima finché non inserisci il basso. Le battute vuote o incomplete mostrano pause; controlla che siano volute.</p>
+   </div>
+   <div class="importFooter"><button id="importCancel" type="button" class="secondary">Annulla</button><button id="confirmImport" type="button" disabled>Inserisci solo il basso</button></div>
+  </div>
+ </section>
+ <script defer src="vendor/jszip.min.js"></script>
+ <script type="module" src="app/main.mjs?v=20261007-cifrature-settime-1"></script>
+<a class="editor-return" href="index.html" title="Torna alla partitura salvata nell’editor">← Torna all’editor</a><style>.editor-return{position:fixed;bottom:38px;right:16px;z-index:250;padding:6px 10px;border:1px solid #8b9ba6;border-radius:5px;background:#edf3f7;color:#205e78;font:12px Arial;text-decoration:none}@media print{.editor-return{display:none}}</style><script data-access-gate>const exit=document.createElement('button');exit.textContent='Esci';exit.dataset.accessExit='true';exit.type='button';exit.onclick=async()=>{await fetch('/api/auth/logout',{method:'POST'});location.replace('/login')};document.querySelector('.appToolbar').append(exit);setInterval(async()=>{try{const r=await fetch('/api/auth/session',{cache:'no-store'});if(!r.ok)location.replace('/login')}catch{location.replace('/login')}},30000);</script></body>
+</html>

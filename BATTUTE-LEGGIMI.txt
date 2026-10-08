@@ -1,0 +1,31 @@
+CORREZIONE BATTUTE MOBILE — 7 ottobre 2026
+
+Il menu Battute mobile conteneva sidebarTools chiuso dal layout compatto.
+Il suo titolo era nascosto: i controlli interni risultavano inaccessibili.
+Adesso le sezioni Armatura, Metrica e Battute sono spostate direttamente
+nel menu mobile, senza quell'antenato chiuso.
+Il pannello non si richiude quando una modifica ridisegna la partitura.
+
+COME USARE
+Attiva Modifica, apri Battute, poi espandi la sezione Battute.
+- + Battuta aggiunge una battuta alla fine e la porta in vista.
+- Battuta da eliminare: scegli il numero, poi premi Elimina battuta.
+  Cancella tutta la battuta, comprese le sue note; avvicina le successive.
+- Rimane sempre almeno una battuta, anche quando elimini l'ultima.
+- I blocchi delle voci rimaste e gli eventi tonali vengono rimappati.
+- Le battute eliminate non ricompaiono riaprendo la pagina.
+Sul desktop rimane disponibile anche Backspace sulla battuta selezionata.
+
+VERIFICA
+277 test automatici superati, zero falliti. Log in TEST-ESEGUITI.txt.
+82 test mirati di interfaccia, mobile e avvio offline superati.
+Nuove regressioni: pannello con antenato chiuso, permanenza della tendina
+al ricalcolo, aggiunta/eliminazione in scrittura, numeri non validi,
+limite minimo di una battuta e ripristino di spartiti da una/due battute.
+Le prove di interfaccia usano un DOM simulato; non è stata eseguita una
+verifica visuale su un telefono reale né un deploy sul tuo account.
+
+INSTALLAZIONE
+Sostituisci i file nella tua cartella armonizza-cloudflare,
+esegui AGGIORNA-SITI.cmd e ricarica completamente la pagina sul telefono.
+Password, key e database invariati. Versione offline inclusa.

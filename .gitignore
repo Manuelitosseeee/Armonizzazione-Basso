@@ -1,0 +1,50 @@
+# dev dependencies and wrangler build cache (non distribuibili)
+node_modules/
+.pnpm-store/
+.wrangler/*.cache
+.wrangler/*.lock
+.wrangler/tmp/
+omr-netlify-opzionale/package-lock.json
+pannello/package-lock.json
+package-lock.json
+package-lock.json
+
+# output locale del deployment (non versionato, rigenerato da wrangler)
+.mvn/
+dist/
+build/
+out/
+public/_worker.js
+public/_routes.json
+site/_worker.js
+site/_routes.json
+pannello/public/_worker.js
+pannello/public/_routes.json
+sito/public/_worker.js
+sito/public/_routes.json
+
+# dati, log e test non volti su Git
+*.log
+*.json
+STATO-EDITOR.json
+Password pannello.txt
+risultati-login-test.txt
+risultati-test.txt
+TEST-*.txt
+AGGIORNAMENTO-LOGIN.txt
+ATTIVA-LOGIN.cmd
+AGGIORNA-SITI.cmd
+CONFIGURA.cmd
+*.cmd
+third-party/
+
+# offline: lib e font documentati come file la cui riorganizzazione richiede la procedura
+#
+# Se vuoi pubblicare anche offline, portali tu i file di licenza, font e campioni di cui parla
+# OFFLINE-LEGGIMI.txt. Per non introdurre file di licenza/font/campioni finora non pubblicati,
+# la cartella offline e il suo contenuto non vanno su Git.
+offline/
+
+# bundler offline-ish (non di produzione per il sito)
+omr-netlify-opzionale/
+pannello/

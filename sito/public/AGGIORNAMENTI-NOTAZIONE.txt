@@ -1,0 +1,7 @@
+SPARTITO PDF 3 – 1 ottobre 2026
+
+La vista interattiva e l'esportazione PDF usano ora la stessa funzione di incisione: engraveScore. Pentagrammi, chiavi, metrica, teste, gambi, alterazioni, pause, legature e posizioni degli accordi provengono dallo stesso disegno. Le pagine seguono gli stessi gruppi di battute del PDF; lo scorrimento continuo mantiene una scala leggibile. Il foglio è bianco e la notazione nera.
+
+99 test superati, compresi i test dell'editor e dell'esportazione, la separazione dei sistemi, le pause in entrambi i righi, le figure brevi, le legature, solo cifrature e la scala delle note. Controllo visivo di un SVG prodotto dal motore effettivo con un esercizio a quattro voci in 2/2. Nessuna prova in un browser reale in questo ambiente.
+
+Aggiornare il sito Netlify esistente: estrarre questo archivio; trascinare la cartella che contiene index.html nella sezione Deploys. index.html, app, vendor, samples e fonts devono essere alla radice. Il titolo di stato mostra 'Spartito PDF 3'. Se compare ancora un pentagramma scuro con 'Battuta 1', si sta visualizzando una versione precedente. Nuovi URL degli asset e intestazioni no-cache riducono il rischio di caricare la vecchia versione.

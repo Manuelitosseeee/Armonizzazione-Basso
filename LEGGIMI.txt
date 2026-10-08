@@ -1,0 +1,215 @@
+CORREZIONE BATTUTE MOBILE: leggi BATTUTE-LEGGIMI.txt.
+Aggiorna con AGGIORNA-SITI.cmd e ricarica il sito.
+
+NUOVO MOBILE: MODIFICA / FUNZIONI
+Leggi MOBILE-LEGGIMI.txt. Aggiorna con AGGIORNA-SITI.cmd.
+
+CORREZIONE: RILEVA MODULAZIONI NON RIPROPONE LE CONFERME
+
+Le modulazioni salvate sono escluse dalle nuove proposte.
+Ignora e Alterazione locale restano esclusi durante la sessione di revisione.
+Queste due scelte vengono azzerate cambiando basso/tonalità, reimportando,
+svuotando lo spartito o ricaricando la pagina. Le modulazioni salvate restano.
+Se elimini un evento tonale, la nota torna disponibile per il rilevamento.
+Test aggiunti: due conferme successive, nuova scansione, minore con sensibile,
+Ignora e Alterazione locale seguiti da un’altra conferma.
+Aggiornamento: AGGIORNA-SITI.cmd e Ctrl+F5.
+
+AGGIORNAMENTO: AUDIT E CORREZIONI DEL 7 OTTOBRE 2026
+
+Leggi AUDIT-FUNZIONI.txt per correzioni, verifiche e limiti.
+Usa AGGIORNA-SITI.cmd come indicato sotto. Password e database invariati.
+
+AGGIORNAMENTO: ACCESSO SALVATO E GESTIONE KEY
+
+1. Chiudi le finestre del sito e del pannello.
+2. Estrai lo ZIP nella cartella:
+   C:\Users\manue\Desktop\armonizza-cloudflare-key-offline
+   Conferma la sostituzione dei file. La cartella armonizza-cloudflare
+   contenuta nello ZIP deve unirsi a quella che hai gia, senza annidarsi.
+3. Apri CMD ed esegui:
+   cd /d C:\Users\manue\Desktop\armonizza-cloudflare-key-offline\armonizza-cloudflare
+   AGGIORNA-SITI.cmd
+4. Aspetta il completamento di entrambi i deploy.
+5. Apri sempre gli indirizzi stabili:
+   https://armonizza-sito-c4f51b.pages.dev
+   https://armonizza-pannello-c4f51b.pages.dev
+   Se vedi la versione precedente, premi Ctrl+F5.
+
+La password del pannello e le key gia create restano le stesse.
+Non serve rieseguire ATTIVA-LOGIN.cmd o creare nuovamente il database.
+
+COME FUNZIONA
+L'accesso al sito viene ricordato nel medesimo browser con cookie persistenti
+protetti, fino a un anno dall'ultimo rinnovo. Il rinnovo avviene durante l'uso.
+Le sessioni precedenti ancora valide vengono aggiornate automaticamente.
+Se la sessione precedente e gia scaduta, inserisci la key una volta.
+Il server controlla sempre scadenza della key, revoche e limiti IP/dispositivo.
+Navigazione privata, cancellazione dei cookie, cambio browser o cambio
+indirizzo del sito richiedono un nuovo accesso. Il tasto Esci disconnette.
+
+Nel pannello apri la key: trovi Elimina key. Conferma per rimuoverla
+insieme a dispositivi e sessioni. L'operazione e definitiva.
+La pagina che chiede la key usa sempre sfondo bianco e testo nero.
+
+VERIFICA MANUALE DOPO IL DEPLOY
+- Inserisci una key, chiudi e riapri il browser sullo stesso indirizzo:
+  devi entrare senza reinserirla.
+- Sospendi quella key dal pannello: l'accesso viene negato anche se salvato.
+- Crea una key di prova, accedi, quindi eliminala dal pannello:
+  non deve piu comparire nell'elenco e non deve permettere accesso.
+- Annulla la conferma di eliminazione: la key deve rimanere.
+- Imposta il dispositivo in tema scuro: la pagina key rimane bianca e nera.
+
+La versione offline inclusa rimane senza accesso con key.
+
+TEST AUTOMATICI ATTUALI: 277 superati, 0 falliti.
+Ultimo controllo aggiuntivo: 60 test di interazione e offline superati.
+Copertura: autenticazione, rinnovo, revoche, limiti, eliminazione,
+script del pannello, aggiornamento senza rotazione password,
+armonizzazione, modulazioni, importazioni, esportazioni e versione offline.
+I test sono stati eseguiti in ambiente locale; il deploy nel tuo account
+e la verifica nel tuo browser Windows vanno eseguiti con i passaggi sopra.
+
+NUOVA VISTA PARTITURA
+All'apertura la vista mostra fogli interi su un'area navigabile.
+Tieni premuto il tasto destro e trascina per spostare la vista.
+Il tasto destro nella partitura ora serve al trascinamento, non elimina note.
+Usa i pulsanti - e + oppure il campo Zoom (40%-300%).
+Ctrl + rotella ingrandisce intorno al cursore. La rotella normale scorre.
+I comandi restano disponibili anche in schermo intero.
+Puoi ancora scegliere le viste precedenti dal menu Vista.
+
+Per eliminare una battuta: disattiva Scrittura con N, clicca sullo spazio
+tra le note oppure sul numero della battuta, quindi premi Backspace.
+La battuta si evidenzia. Le successive si avvicinano automaticamente.
+Cliccando una nota selezioni invece l'accordo: Backspace elimina quella
+selezione. Controlla i collegamenti armonici dopo una cancellazione.
+Per una nuova pagina vuota aggiungi battute con + Battuta.
+
+Le modifiche sono incluse anche nella versione offline/index.html.
+
+CORREZIONE GAMBI E CIFRATURE TONALI
+Con tenore, contralto e soprano in chiave di violino, le tre note
+sincrone sono incise con un solo gambo, con direzione comune.
+Anche MusicXML rappresenta queste tre altezze come un accordo sul
+pentagramma superiore, mentre il basso rimane sul pentagramma inferiore.
+La disposizione con due voci per pentagramma mantiene voci separate.
+
+Esportando PDF o MusicXML con i gradi attivati, la tonalita compare
+sulla stessa riga delle cifrature: REM: I V I DOm: I V I.
+La sigla viene scritta all'inizio e ad ogni cambio della tonalita di
+riferimento, inclusi i ritorni. M = maggiore, m = minore.
+Le dominanti secondarie mantengono la propria cifratura (V/V etc.) e
+non generano un cambio di tonalita principale.
+Senza l'opzione dei gradi non vengono stampate queste annotazioni.
+
+Aggiorna con AGGIORNA-SITI.cmd come indicato sopra.
+Password del pannello e key gia create restano invariate.
+ATTIVA-LOGIN.cmd e incluso per rigenerare la password SOLO se l'hai
+persa: non occorre eseguirlo per questo aggiornamento.
+
+Verificata visivamente anche una pagina PDF con REM: I V I DOm: I V I.
+MusicXML verificato con test automatici; non eseguito in MuseScore desktop.
+
+CORREZIONE PDF DIESIS/BEMOLLE
+Risolto errore WinAnsi durante la misurazione delle sigle di tonalita.
+Verificata la generazione effettiva del PDF in tutte le 30 tonalita,
+con modulazioni e in entrambe le disposizioni delle voci (60 esportazioni).
+Le sigle PDF usano # per diesis e b per bemolle; MusicXML conserva i simboli.
+Aggiorna come sempre con AGGIORNA-SITI.cmd; key e password non cambiano.
+
+NUOVO DESIGN COMPATTO
+Il sito apre la nuova interfaccia scura con foglio chiaro, come nel modello
+approvato. I temi separati e le personalizzazioni rimangono disponibili.
+- In alto a sinistra: Personalizza.
+- In alto a destra: Importa, Esporta e logout.
+- Barra centrale: Genera basso, Armonizza, Modulazioni, Tonicizzazioni,
+  Accordi e Strumenti; riproduzione, loop, velocita e schermo intero.
+- Barra musicale superiore: tutte le note, pause, alterazioni, punto,
+  legature, scrittura e selezione dei valori con i numeri.
+- Barra laterale: solo tonalita, metrica, disposizione voci e battute.
+- Sotto la partitura: vista, zoom e modalita solo cifrature.
+
+NESSUNA FUNZIONE RIMOSSA
+Controllo automatico: tutti i 174 ID dei controlli originali conservati.
+Genera basso contiene battute e percorso tonale del basso generato.
+Armonizza contiene livello, armonizzazione e alternative.
+Accordi contiene cadenze, settime e relativi filtri.
+Strumenti contiene selezione, blocchi, spiegazioni, elenco note del basso,
+cancella tutto, correzione esercizi, regole e lettura armonica.
+L'elenco delle modulazioni e tonicizzazioni e raggiungibile da entrambi
+i relativi menu. Le funzioni importazione, verifica e revisione del basso,
+esportazione e personalizzazione mantengono tutti i controlli precedenti.
+In schermo intero rimangono le barre superiori, comprese Importa ed Esporta.
+
+Per aggiornare sostituisci i file ed esegui AGGIORNA-SITI.cmd.
+Poi premi Ctrl+F5 nel sito. Password e key non vengono modificate.
+La versione offline include la nuova interfaccia nel file offline/index.html.
+
+Verifica: 229 test automatici superati, incluso controllo di conservazione
+controlli, menu, schermo intero, funzioni musicali ed esportazioni.
+L'ultimo controllo offline e del layout ha superato altri 7 test.
+Non e stato eseguito un confronto pixel per pixel in un browser desktop.
+
+RIPRISTINO CLIC DESTRO E CONTROLLI GENERATORE
+- Clic destro fermo su una nota: elimina la nota.
+- Clic destro in una posizione libera del rigo, con scrittura attiva:
+  inserisce una pausa della durata selezionata.
+- Tasto destro premuto e movimento oltre 5 pixel: sposta la vista,
+  senza eliminare note o aggiungere pause.
+- Genera basso mostra tonalita iniziale, metrica, numero battute,
+  percorso tonale e tutte le impostazioni gia disponibili.
+  Tonalita e metrica sono sincronizzate con i controlli laterali.
+
+Corretto il layout: triangoli dei menu, titoli laterali senza riquadri,
+intestazione Scrittura musicale, campi con angoli morbidi, trasporto e
+strumenti ritmici compatti. Rimosso il margine inutilizzato sopra il
+basso non armonizzato, mantenendo visibili anche le note piu alte.
+L'opzione note e pause rimane solo nella barra superiore.
+Aggiorna con AGGIORNA-SITI.cmd, quindi Ctrl+F5. Key e password conservate.
+
+AGGIORNAMENTO 7 OTTOBRE — IMPORTAZIONE E INTERAZIONI
+Estrarre lo ZIP e sostituire i file nella cartella armonizza-cloudflare esistente.
+Eseguire AGGIORNA-SITI.cmd. Poi nel browser premere Ctrl+F5.
+Le configurazioni dei due progetti, il database e la password amministratore rimangono invariati.
+Non occorre eseguire ATTIVA-LOGIN.cmd per questo aggiornamento.
+
+Importa: selezionare un file MuseScore .mscz/.mscx oppure MusicXML .musicxml/.xml/.mxl.
+Scegliere il rigo del basso, controllare l’anteprima e premere Inserisci solo il basso.
+Le immagini e i PDF non vengono più riconosciuti: il servizio OMR non viene chiamato.
+L’importazione dei formati supportati funziona anche offline.
+
+Cadenza: armonizzare il basso, selezionare l’accordo di arrivo e scegliere Cadenza nel menu Accordi.
+Il sistema calcola le proposte; scegliere il tipo e premere Conferma proposta.
+In alternativa attivare Cadenza e cliccare una nota oppure la battuta di arrivo.
+Prima della conferma il basso non viene modificato; gli spostamenti sono descritti nell’anteprima.
+
+Minime, semibrevi e brevi: cliccare anche il centro vuoto della testa per selezionarle.
+Personalizza ha un pannello opaco, sia nella vista normale sia a schermo intero.
+Tasto destro su una nota: elimina. Tasto destro su un punto libero in scrittura: inserisce la pausa selezionata.
+Tenere il tasto destro e trascinare: sposta la vista, senza eliminare o inserire eventi.
+Genera basso: tonalità iniziale e metrica sono nel relativo menu, oltre ai controlli laterali.
+
+CORREZIONE MENU E PANNELLO ACCORDI — 7 OTTOBRE
+Importa, Esporta e Personalizza vengono visualizzati sopra tutte le barre: i pulsanti non sono più coperti.
+Il menu Accordi si chiude quando si avvia un’operazione, lasciando visibile il pannello della proposta.
+Durante il calcolo la finestra resta visibile, i comandi di ricalcolo sono disabilitati e Annulla rimane disponibile.
+Doppi clic non avviano ulteriori worker. Una risposta di un calcolo precedente non può sostituire quella attuale.
+Il ricalcolo non nasconde e riapre il pannello; il completamento non cambia automaticamente lo scorrimento della vista.
+Dopo un risultato o errore i comandi tornano disponibili. Conferma o Annulla chiudono il pannello.
+Aggiornamento: sostituire i file esistenti, eseguire AGGIORNA-SITI.cmd e poi Ctrl+F5 nel browser.
+
+CADENZA PLAGALE SUL BASSO TENUTO — 7 OTTOBRE
+1. Scrivere o importare una semibreve sulla tonica e armonizzare il basso.
+2. Selezionare l’accordo e scegliere Cadenza nel menu Accordi.
+3. Scegliere Plagale e confermare la proposta Plagale sul basso tenuto.
+Il basso resta una semibreve, senza spostamenti o suddivisioni.
+Le voci superiori vengono scritte come semiminima, semiminima, minima: I–IV64–I.
+Il IV è in secondo rivolto perché la tonica rimane al basso; le parti superiori risolvono sul I.
+La cadenza si vede sulla partitura, si sente con il basso tenuto, viene conservata al ricalcolo e salvata tra gli aggiornamenti della pagina.
+PDF e MusicXML mantengono durate indipendenti nelle due chiavi e una cifratura sotto ogni accordo; MIDI conserva la nota lunga del basso.
+Su una minima la suddivisione proporzionale è croma, croma, semiminima.
+Questa forma richiede la tonica al basso. Se le voci bloccate o i collegamenti vicini non consentono una disposizione valida, il programma lo segnala.
+Le altre cadenze restano disponibili secondo il loro funzionamento precedente su più note del basso.
+Aggiornare con AGGIORNA-SITI.cmd, poi Ctrl+F5. Password, key e database non cambiano.

@@ -1,0 +1,72 @@
+# Importazione 6 — tutto su Netlify
+
+Il riconoscimento di PDF e immagini parte solo quando premi Importa o incolli una nuova immagine. Nessun programma da installare su Windows, nessun server esterno da collegare e nessuna chiave API di terze parti. MuseScore e MusicXML continuano a essere letti direttamente nel browser.
+
+## Pubblicazione iniziale (una sola volta)
+
+Questa versione richiede una build Netlify. NON trascinare soltanto `dist` o questo ZIP nella zona dei deploy statici: quel caricamento non installa il motore e le funzioni.
+
+1. Estrai lo ZIP. La cartella del progetto contiene `package.json`, `netlify.toml`, `dist`, `netlify`, `plugins` e `scripts`.
+2. Metti tutto il progetto in un repository GitHub. Se usi il caricamento dal browser GitHub, i file devono essere alla radice del repository; il file `.gitignore` evita di caricare dipendenze e runtime generati.
+3. Sul sito Netlify esistente collega quel repository nella sezione delle impostazioni di build/deploy (Link repository). In alternativa crea un progetto con Import an existing project e scegli GitHub.
+4. Imposta: **Base directory vuota**, **Build command `npm run build`**, **Publish directory `dist`**, **Functions directory `netlify/functions`**. Sono già dichiarate in `netlify.toml`. Se hai messo il progetto in una sottocartella Git, usa quella come Base directory.
+5. Avvia il deploy. Netlify installa le dipendenze, scarica Audiveris e Java e conserva il runtime nei propri Blobs attraverso il plugin incluso. Il primo build può richiedere diversi minuti. Non occorre installare Java sul tuo computer.
+6. Apri il sito pubblicato: deve mostrare **Netlify · Importazione 6**. Importa prima un piccolo PDF leggibile e controlla l'anteprima.
+
+Per aggiornare il sito aggiorna i file nello stesso repository: Netlify ripete la build. Evita deploy statici successivi, che non includono questa configurazione.
+
+Il pacchetto è pronto per la build; il deploy sul tuo account NON è stato eseguito o verificato qui. Se il piano Netlify impedisce Background Functions o Blobs, la build/funzione mostrerà un errore: il progetto non cambia piano né abilita acquisti automaticamente.
+
+## Come importare
+
+- Premi **Importa basso** e scegli `.mscz`, `.mscx`, `.musicxml`, `.xml`, `.mxl`, PDF o immagine (PNG/JPG/WebP/BMP/TIFF singola pagina).
+- Per le immagini puoi usare **Ctrl+V** fuori dai campi di testo, o il pulsante Incolla immagine se il browser concede l'accesso agli appunti.
+- Attendi il riconoscimento, scegli il rigo del basso e confronta con l'originale. Correggi tonalità, metrica, battute, tempi, note, pause, durate, punti e legature.
+- **Inserisci basso** trasferisce solo le note: non avvia armonizzazione o modulazioni. Poi decidi tu se premere Genera armonizzazioni.
+- **Annulla** conserva la partitura precedente; durante il riconoscimento richiede anche l'interruzione del processo.
+
+## Quando parte e quanto dura
+
+Audiveris viene avviato esclusivamente da una nuova importazione di PDF/immagine. Aprire il sito, suonare, armonizzare, importare MuseScore/MusicXML o controllare l'avanzamento NON lo avvia. Il controllo dello stato non rilancia il processo; gli avvii duplicati vengono ignorati.
+
+I 15 minuti sono il limite di UNA invocazione background Netlify, non un contatore di sito acceso. Il progetto interrompe il comando dopo 11 minuti e scade il job dopo 12. Il piano dell'account può comunque prevedere consumi e costi: non è promessa di uso gratuito illimitato.
+
+Limiti implementati: scansione massima 4 MB, massimo 2 riconoscimenti contemporanei nel sito e 50 nuove richieste al giorno UTC. Puoi cambiare il limite giornaliero con la variabile Netlify `OMR_DAILY_LIMIT` (1–500), disponibile alle Functions. Nessuna configurazione necessaria per il valore predefinito. File lunghi o molto complessi possono richiedere più memoria di quella disponibile: importa pochi fogli alla volta.
+
+Originali eliminati dopo l'elaborazione; risultati conservati temporaneamente fino a 24 ore. Una funzione giornaliera elimina i job scaduti: fa solo pulizia, NON avvia Audiveris. I file vengono elaborati e conservati temporaneamente nel tuo progetto Netlify.
+
+## Affidabilità
+
+L'OMR può sbagliare: controlla tutte le note, anche quando la metrica risulta valida. Preferisci spartiti stampati, dritti, nitidi, con righi completi. L'anteprima blocca l'inserimento di figure sovrapposte o fuori battuta finché non le correggi. Non sono disponibili punteggi di affidabilità per singola nota.
+
+Verifica maggiore/minore nel menu: l'armatura da sola non identifica sempre la tonalità. Terzine, doppi punti e cambi interni di metrica/armatura non sono ancora supportati dall'editor/importatore e vengono segnalati. I righi polifonici sono ridotti alla voce/nota più grave con avviso. TIFF multipagina e più partiture separate nello stesso risultato vengono rifiutati.
+
+## Verifiche effettuate
+
+**127 test JavaScript superati**: motore musicale, importazione, notazione, esportazione, interfaccia simulata, avvio unico, annullamento, limiti, polling e preprocessing. Comandi dalla cartella del progetto:
+
+```sh
+npm ci
+npm test
+npm run test:omr
+```
+
+Prove con Audiveris reale 5.10.2 e Java incluso: PDF pulito di due battute, tutte le 8 note e durate corrette, Re maggiore, 4/4; avvio a freddo con estrazione del runtime riuscito. La foto fornita ha restituito 62 note su 16 battute con un errore ritmico alla battuta 14: serve correzione nell'anteprima, non è una trascrizione esatta verificata.
+
+Il bundler ufficiale Netlify produce tre funzioni; quella background pesa circa 16,3 MiB compressi. Il runtime è conservato separatamente nei Blobs e viene caricato solo quando serve. Non è stato verificato il comportamento dentro una Lambda Netlify reale né gli appunti del sistema operativo con un browser reale in questo ambiente.
+
+Per provare il sito: importa/annulla e controlla che il basso resti; importa/conferma e verifica che non parta l'armonia; correggi una durata fuori battuta; importa una scansione e annulla; controlla nel pannello Functions che l'aggiornamento dello stato non crei nuovi riconoscimenti.
+
+## Licenze e fonti
+
+Audiveris 5.10.2 è AGPL-3.0, scaricato durante il build dal repository ufficiale. Sorgenti, licenza e release: https://github.com/Audiveris/audiveris/releases/tag/5.10.2 . Il runtime include anche Java e librerie native con le rispettive licenze conservate ove fornite; font DejaVu e dipendenze JavaScript sono open source. Nessun binario Audiveris viene incluso in questo ZIP.
+
+- CLI Audiveris: https://audiveris.github.io/audiveris/_pages/guides/advanced/cli/
+- Background Functions: https://docs.netlify.com/build/functions/background-functions/
+- Blobs: https://docs.netlify.com/build/data-and-storage/netlify-blobs/
+
+Per anteprima locale senza riconoscimento: `npm start` e http://localhost:5173 . Il server statico non emula le Functions/Blobs; per l'importazione di scansioni usa il deploy Netlify.
+
+## GPT Sites
+
+Su GPT Sites apri Importa basso e collega una volta l’indirizzo del tuo sito Netlify. La verifica non avvia Java. Dopo aver pubblicato questa versione CON BUILD su Netlify, il sito GPT può importare immagini tramite quel motore. GPT Sites non esegue Audiveris direttamente. Vedi docs/verifiche-importazione/netlify-importazione-6.md per verifica e limiti.

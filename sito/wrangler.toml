@@ -1,0 +1,10 @@
+name = "armonizza-sito-c4f51b"
+pages_build_output_dir = "./public"
+compatibility_date = "2026-10-01"
+[vars]
+APP_MODE = "music"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "armonizza-accessi"
+database_id = "6ae7f79c-0e0d-486f-838a-9bcf807175bb"

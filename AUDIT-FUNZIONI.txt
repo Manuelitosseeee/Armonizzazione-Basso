@@ -1,0 +1,67 @@
+AUDIT APPROFONDITO — 7 ottobre 2026
+
+Ambito: sito musicale, versione offline, accesso e pannello delle key.
+Inventario: 103 controlli HTML identificati, di cui 52 pulsanti attivi.
+I due vecchi pulsanti OMR/immagini sono ritirati, non contati tra quelli attivi.
+Inventario completo: tests/fixtures/controls-audit.json.
+
+CORREZIONI
+- Le modifiche manuali alle voci si salvano e riappaiono al riavvio.
+  Ripristino validato: uno stato incoerente non impedisce l'avvio.
+- Le metriche 1/32 e 1/64 e il limite scelto di modulazioni si conservano.
+  Un cambio di metrica incompatibile viene rifiutato senza perdere le note.
+- Eliminare una nota o una battuta conserva e rimappa i blocchi delle voci
+  rimaste. Anche i blocchi delle pulsazioni delle cadenze sono distinti.
+- Nelle cadenze sul basso tenuto, la selezione/modifica agisce sulla pulsazione
+  cliccata. I blocchi vengono rispettati dal ricalcolo.
+  L'aggiunta di settima a una cadenza suddivisa è disabilitata esplicitamente:
+  non modifica più in silenzio il primo accordo al posto di quello selezionato.
+- Un errore nella creazione del Worker viene segnalato, sblocca i comandi
+  e conserva il basso; la finestra non resta impegnata senza risposta.
+- La finestra di importazione viene ospitata dentro la partitura a schermo
+  intero, con ripristino degli elementi e del focus alla chiusura.
+- MuseScore: se basso e tenore sono nello stesso rigo, viene scelta la voce
+  più grave e mantenuta nelle battute successive, anche quando ha una pausa.
+  Armatura/metrica possono essere lette dall'altra voce dello stesso rigo.
+- Gruppi irregolari MuseScore non supportati vengono rifiutati: non diventano
+  silenziosamente note con durate sbagliate.
+- La revisione importazione valida metrica e durate prima di spostare note.
+- Note importate estremamente basse non vengono tagliate nel riquadro.
+
+VERIFICHE
+- Collegamento delle azioni di tutti i 52 pulsanti attivi; prova delle azioni
+  disponibili a spartito vuoto, con controlli di eccezioni e chiusura finestre.
+- Test su editor, pause, note vuote, tastiera, copia/incolla, cancellazioni,
+  tonalità, modulazioni, settime, cadenze, ascolto e impostazioni.
+- Motore: matrice di 568 percorsi modulanti e 240 tonicizzazioni; regressioni
+  sui bassi problematici, conservazione del basso e controlli delle voci.
+- Plagale sul basso tenuto in tutte le 30 tonalità, con blocchi compatibili
+  e incompatibili; ritmi indipendenti in ascolto, MIDI, MusicXML e PDF.
+- Importazioni MSCX, MSCZ, MusicXML e MXL, voci multiple e formati rifiutati.
+- Avvio del bundle offline reale in un ambiente DOM simulato, dopo salvataggio
+  e con dati corrotti; font, suoni e codice inclusi nel file offline.
+- Test del server di accesso e del pannello: sessioni, revoche e limiti.
+
+RISULTATO: 277 test automatici superati; 0 falliti; 0 saltati.
+Log completo: TEST-ESEGUITI.txt. Ripetizione: npm test dalla cartella principale.
+
+LIMITI DEL CONTROLLO
+Le prove di interfaccia usano un DOM simulato, non un browser grafico reale.
+Non è stata eseguita una verifica visuale completa o un deploy sul tuo account.
+L'inventario verifica le azioni collegate e vari casi limite, non dimostra ogni
+combinazione possibile di impostazioni o ogni spartito musicalmente possibile.
+Le importazioni non supportano ancora terzine/gruppi irregolari né tutti i cambi
+interni di metrica e tonalità: questi casi devono essere segnalati, non inventati.
+Il sistema continua a segnalare vincoli senza soluzione; non aggira le regole
+per produrre un risultato apparentemente valido.
+
+VERIFICA PRATICA DOPO L'AGGIORNAMENTO
+1. Aggiorna con AGGIORNA-SITI.cmd, poi Ctrl+F5 sul sito.
+2. Modifica una voce superiore, ricarica: l'altezza deve rimanere.
+3. Blocca una voce e cancella una nota prima: il blocco deve seguire la nota.
+4. Su Do semibreve prova una plagale: basso unico, sopra I–IV64–I.
+   Seleziona il secondo accordo: modifica e blocco devono agire solo lì.
+5. Importa un MSCZ con basso e tenore nello stesso rigo e controlla la voce.
+6. Apri importa a schermo intero, poi annulla: i comandi devono riattivarsi.
+7. Prova un cambio di metrica che non contiene la figura: il basso resta uguale.
+8. Prova offline/index.html; nessun accesso con key è richiesto offline.

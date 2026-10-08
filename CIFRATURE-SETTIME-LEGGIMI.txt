@@ -1,0 +1,44 @@
+AGGIORNAMENTO CIFRATURE, PDF E SETTIME
+
+1. Estrai questo ZIP in C:\Users\manue\Desktop\armonizza-cloudflare-key-offline
+   e sostituisci i file richiesti.
+2. Esegui AGGIORNA-SITI.cmd nella cartella armonizza-cloudflare.
+3. Attendi i due deploy e premi Ctrl+F5 sul sito.
+
+Il pacchetto non include wrangler.toml: conserva la tua configurazione esistente.
+Non occorre eseguire CONFIGURA.cmd o ATTIVA-LOGIN.cmd.
+Password, database e key esistenti restano invariati.
+
+CIFRATURE
+- Il pulsante Cifratura mostra/nasconde gradi e indicazioni tonali senza togliere le note.
+- Tonalità (REM:, DOm:, ecc.) su una riga distinta dai gradi centrati sotto ogni accordo.
+- Le tonicizzazioni si scrivono V43 del V, II7 del V, ecc.
+- Nessun grado alternativo viene inventato quando manca una funzione riconosciuta.
+
+PDF
+- Nessun titolo o intestazione aggiuntiva con nome della tonalità e metrica.
+- Armatura, chiavi e indicazione metrica musicale nel pentagramma restano presenti.
+- In Esporta > PDF scegli da 2 a 20 sistemi per pagina.
+- Un sistema comprende i pentagrammi delle voci: 5 sistemi armonizzati = 10 pentagrammi.
+- Le opzioni più dense riducono anche note e testi. 20 è una vista in miniatura.
+- La scelta dei gradi nell'esportazione è indipendente e può essere modificata.
+
+SETTIME
+- Accordi > Aggiungi settime dove possibile.
+- Scegli i gradi da trasformare in accordi di settima.
+- Scansiona tutto il basso, controlla la proposta, premi Conferma.
+- Il motore mantiene basso, gradi, rivolti, blocchi e cadenze sul basso tenuto.
+- Le voci superiori possono essere adattate per preparare e risolvere le dissonanze.
+- Tutto il percorso deve superare le regole implementate prima della proposta.
+- Esempio verificato: IV II V I diventa IV II7 V7 I.
+- Se non esiste una proposta valida, lo spartito non viene modificato.
+
+VERIFICHE
+289 test automatici superati, zero fallimenti.
+Inclusi: settime nelle 30 tonalità, scelta dei tipi, blocchi, preparazioni troppo brevi,
+ricalcolo, worker reale, comandi interfaccia, esportazioni e densità PDF 2-20.
+Controllo visivo dei PDF a 5 e 20 sistemi per pagina completato.
+Verificata compilazione online e incorporamento del worker nell'edizione offline.
+Le prove dell'interfaccia usano un DOM simulato. Non è stato fatto un deploy sul tuo account.
+La ricerca delle settime è limitata ai gradi supportati e alle regole implementate;
+non è una dimostrazione esaustiva di ogni disposizione musicale teoricamente possibile.
